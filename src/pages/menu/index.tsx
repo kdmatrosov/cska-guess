@@ -16,7 +16,7 @@ export const Menu: React.FC = () => {
             </div>
             <div className={classes.menu}>
                 <div className={classes.menuItem} onClick={() => onMenuClick('game')}>
-                    НОВАЯ ИГРА
+                    ДО ПЕРВОЙ ОШИБКИ
                 </div>
             </div>
             <Hint />

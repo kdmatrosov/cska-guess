@@ -35,6 +35,7 @@ const flags: Record<Country, string> = {
     "Финляндия": "🇫🇮",
     "Болгария": "🇧🇬",
     "Латвия": "🇱🇻",
+    "Словения": "🇸🇮",
 }
 
 export const getFlag = (country: Country): string => flags[country];

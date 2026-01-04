@@ -331,4 +331,64 @@ export const persons: Person[] = [
         country: 'Россия',
         images: ["https://pfc-cska.com/uploads/content/x_bitrix/pfc-cska.com/upload/news/chepchugov_kuban.jpg"]
     },
+    {
+        name: 'Ильзат',
+        surname: 'Ахметов',
+        country: 'Россия',
+        images: ["https://img.championat.com/s/732x488/news/big/v/f/ilzat-ahmetov_15441357851883892943.jpg"]
+    },
+    {
+        name: 'Родриго',
+        surname: 'Бекао',
+        country: 'Бразилия',
+        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/65/b4/0aa6489c87c0f6c2f93bc53fd8bbfde55cfced27af0fb633791989.jpg"]
+    },
+    {
+        name: 'Яка',
+        surname: 'Бийол',
+        country: 'Словения',
+        images: ["https://bobsoccer.ru/imagepreview/view/data/photo/31879.130089.IMG_2386.JPG"]
+    },
+    {
+        name: 'Кристиан',
+        surname: 'Бистрович',
+        country: 'Хорватия',
+        images: ["https://ss.sport-express.net/userfiles/materials/212/2122181/1180x665.jpg"]
+    },
+    {
+        name: 'Никола',
+        surname: 'Влашич',
+        country: 'Хорватия',
+        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/73/f8/5bcaa76cb901dc50e6391209b5d638645fa44ab21a126782123404.jpg"]
+    },
+    {
+        name: 'Ивица',
+        surname: 'Олич',
+        country: 'Хорватия',
+        images: ["https://ss.sport-express.ru/userfiles/materials/9/90366/large.jpg"]
+    },
+    {
+        name: 'Рифат',
+        surname: 'Жемалетдинов',
+        country: 'Россия',
+        images: ["https://img.championat.com/s/732x488/news/big/a/j/igrok-cska-zhemaletdinov-vse-moi-avtoshtrafy-za-skorost-hochetsya-ezdit-bystree_1739784001222072390.jpg"]
+    },
+    {
+        name: 'Тимур',
+        surname: 'Жамалетдинов',
+        country: 'Россия',
+        images: ["https://i.ibb.co/ycYp53HN/Ef-PP8-Lf-WAAEn-XJP.jpg"]
+    },
+    {
+        name: 'Константин',
+        surname: 'Кучаев',
+        country: 'Россия',
+        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/1f/5f/e01ec7f6120c27cde74b9de894821e315e81f9afcc50f763942697.jpg"]
+    },
+    {
+        name: 'Фёдор',
+        surname: 'Чалов',
+        country: 'Россия',
+        images: ["https://pfc-cska.com/uploads/content/x_bitrix/pfc-cska.com/upload/medialibrary/1b0/i_C6Z2Lhv_XL.jpg"]
+    },
 ]
