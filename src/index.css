@@ -33,6 +33,10 @@ body, #root {
     background-color: var(--surface-surface-main);
 }
 
+body {
+    padding-top: 128px;
+}
+
 * {
     /*font-family: "Oswald", sans-serif;*/
     /*font-family: "Unbounded", sans-serif;*/
