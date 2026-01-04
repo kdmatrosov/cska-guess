@@ -63,6 +63,10 @@
     font-family: "Sofia Sans Condensed", sans-serif;
 }
 
+.person.short > * {
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+}
+
 .person:hover {
     cursor: pointer;
 }

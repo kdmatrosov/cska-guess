@@ -5,6 +5,7 @@ import {Hint} from "../../components";
 import {Randomizer} from "./randomizer.ts";
 import {persons} from "../../persons";
 import {shuffleArray} from "../../utils/shuffle-array.ts";
+import cn from 'classnames';
 import type {Person} from "../../types";
 
 function secondsToMmSs(secs: number): string {
@@ -19,16 +20,15 @@ function secondsToMmSs(secs: number): string {
     return `${formattedMinutes}:${formattedSeconds}`;
 }
 
-const rand = new Randomizer(persons);
-const first = rand.getPerson();
 const total = persons.length;
 
 export const Game: React.FC = () => {
     let navigate = useNavigate();
+    const [rand] = useState(() => new Randomizer(persons));
     const [finished, setFinished] = useState(false);
     const [guessed, setGuessed] = useState(0);
     const [seconds, setSeconds] = useState(0);
-    const [person, setPerson] = useState(first);
+    const [person, setPerson] = useState(() => rand.getPerson());
     const intervalID = useRef(0);
     React.useEffect(() => {
         intervalID.current = window.setInterval(() => {
@@ -51,17 +51,19 @@ export const Game: React.FC = () => {
         navigate("/");
     }
 
+    const finish = () => {
+        setFinished(true);
+        clearInterval(intervalID.current);
+    }
     const onChoice = (chosen: Person) => {
         if (chosen.surname === person.surname) {
             setGuessed((prevState) => prevState + 1);
             setPerson(rand.getPerson());
             if (guessed + 1 === total) {
-                setFinished(true);
-                clearInterval(intervalID.current);
+                finish()
             }
         } else {
-            setFinished(true);
-            clearInterval(intervalID.current);
+            finish();
         }
     };
     if (finished) {
@@ -89,7 +91,9 @@ export const Game: React.FC = () => {
                 <img src={image} alt="" className={classes.image}/>
                 <div className={classes.persons}>
                     {finalPersons.map((fp) => (
-                        <div key={fp.surname} className={classes.person} onClick={() => onChoice(fp)}>
+                        <div key={fp.surname} className={cn(classes.person, {
+                            [classes.short]: fp.name.length > 10 || fp.surname.length > 10
+                        })} onClick={() => onChoice(fp)}>
                             <div>{fp.name}</div>
                             <div>{fp.surname}</div>
                         </div>
