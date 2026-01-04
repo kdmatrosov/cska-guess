@@ -88,7 +88,7 @@ export const Game: React.FC = () => {
                 <div className={classes.timer}>{timer}</div>
             </div>
             <div className={classes.game}>
-                <img src={image} alt="" className={classes.image}/>
+                <img src={image} alt="" key={image} className={classes.image}/>
                 <div className={classes.persons}>
                     {finalPersons.map((fp) => (
                         <div key={fp.surname} className={cn(classes.person, {

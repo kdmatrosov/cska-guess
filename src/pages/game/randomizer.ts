@@ -8,9 +8,11 @@ function getRandomInt(max: number) {
 export class Randomizer {
     private filteredPersons: Person[];
     private memoryPersons: Person[] = [];
+    private memory: number;
 
-    constructor(persons: Person[]) {
+    constructor(persons: Person[], memory = 4) {
         this.filteredPersons = persons;
+        this.memory = memory;
     }
 
     getPerson(): Person {
@@ -32,7 +34,7 @@ export class Randomizer {
 
     getExtraPersons(person: Person): Person[] {
         const result: Person[] = [];
-        const from = this.filteredPersons.concat(this.memoryPersons).filter((fp) => fp.surname !== person.surname);
+        const from = this.filteredPersons.concat(this.memoryPersons.slice(0, -this.memory)).filter((fp) => fp.surname !== person.surname);
         shuffleArray(from);
         for (let i = 0; i < 3; i++) {
             result.push(from[i]);
