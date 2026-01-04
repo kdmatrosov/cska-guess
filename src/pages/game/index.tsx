@@ -24,13 +24,16 @@ const total = persons.length;
 
 export const Game: React.FC = () => {
     let navigate = useNavigate();
-    const [rand] = useState(() => new Randomizer(persons));
+    const [rand, setRand] = useState(() => new Randomizer(persons));
     const [finished, setFinished] = useState(false);
     const [guessed, setGuessed] = useState(0);
     const [seconds, setSeconds] = useState(0);
-    const [person, setPerson] = useState(() => rand.getPerson());
+    const [person, setPerson] = useState<Person | undefined>();
     const intervalID = useRef(0);
     React.useEffect(() => {
+        const random = new Randomizer(persons);
+        setPerson(random.getPerson());
+        setRand(random);
         intervalID.current = window.setInterval(() => {
             setSeconds((prevState) => prevState + 1);
         }, 1000)
@@ -56,7 +59,7 @@ export const Game: React.FC = () => {
         clearInterval(intervalID.current);
     }
     const onChoice = (chosen: Person) => {
-        if (chosen.surname === person.surname) {
+        if (chosen.surname === person!.surname) {
             setGuessed((prevState) => prevState + 1);
             setPerson(rand.getPerson());
             if (guessed + 1 === total) {
@@ -70,7 +73,7 @@ export const Game: React.FC = () => {
         return (
             <div className={classes.wrapper}>
                 <div className={classes.result}>
-                    <div className={classes.resultGuessed}>Угадано {guessed} из {total}</div>
+                    <div className={classes.resultGuessed}>Угадано {guessed} из {Math.min(guessed + 1, total)}</div>
                     <div className={classes.resultTimer}>Время {timer}</div>
                 </div>
                 <div onClick={onBackClick} className={classes.resultMain}>На главную</div>
