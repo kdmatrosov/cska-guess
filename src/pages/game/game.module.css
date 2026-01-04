@@ -1,0 +1,101 @@
+.wrapper {
+    max-width: 1024px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 8px;
+    align-self: normal;
+}
+
+.back {
+    color: var(--base-blue);
+    user-select: none;
+}
+
+.back:active {
+    color: var(--base-red);
+}
+
+.back:hover {
+    cursor: pointer;
+}
+
+.timer {
+    color: var(--base-grey);
+}
+
+.image {
+    width: 100%;
+}
+
+.game {
+    width: 100%;
+}
+
+.persons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--base-white);
+    color: var(--base-blue);
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 16px;
+    flex-basis: calc(50% - 8px);
+    flex-grow: 0;
+    user-select: none;
+}
+.person > * {
+    font-family: "Sofia Sans Condensed", sans-serif;
+}
+
+.person:hover {
+    cursor: pointer;
+}
+
+.person:active {
+    font-weight: bold;
+}
+
+.result {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.resultGuessed {
+    color: var(--base-blue);
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.resultTimer {
+    color: var(--base-bg-black);
+    font-size: 18px;
+}
+
+.resultMain {
+    cursor: pointer;
+    margin-top: 128px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--base-blue);
+    text-decoration: underline;
+}

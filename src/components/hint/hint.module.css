@@ -1,0 +1,7 @@
+.hint {
+    margin: auto auto 8px;
+    text-align: center;
+    color: var(--base-grey);
+    font-size: 10px;
+    text-transform: uppercase;
+}

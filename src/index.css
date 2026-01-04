@@ -1,13 +1,54 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+:root {
+    --base-blue: rgb(41, 52, 132);
+    --base-red: rgb(234, 31, 41);
+    --base-white: #ffffff;
+    --base-gold: #f7b837;
+    --base-silver: #b4b6b9;
+    --base-bronze: #ef845a;
+    --base-green: #2eaa57;
+    --surface-surface-main: #f2f3f5;
+    --surface-surface-high: #e9ebee;
+    --surface-surface-highest: #dedfe7;
+    --base-grey: #9da0b2;
+    --base-bg-black: #1e1e25;
+    --base-cru: #c8102e;
+    --base-rpl: #000058;
+    --score-rating-s10: #dc0c00;
+    --score-rating-s60: #ed7e07;
+    --score-rating-s65: #d9af00;
+    --score-rating-s70: #00c424;
+    --score-rating-s80: #00adc4;
+    --score-rating-s90: #374df5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body, #root {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: var(--surface-surface-main);
+}
+
+* {
+    /*font-family: "Oswald", sans-serif;*/
+    /*font-family: "Unbounded", sans-serif;*/
+    /*font-family: "Gidole", sans-serif;*/
+    /*font-family: "Audiowide", sans-serif;*/
+    /*font-family: "Fira Sans Condensed", sans-serif;*/
+    /*font-family: "Sofia Sans Condensed", sans-serif;  !*для заголовков*!*/
+    /*font-family: "Fira Sans", sans-serif;*/
+    font-family: "Sofia Sans", sans-serif; /*основа*/
+    box-sizing: border-box;
+}
+
+a {
+    color: var(--base-blue);
+}
+
+a:active {
+    color: var(--base-red);
 }
