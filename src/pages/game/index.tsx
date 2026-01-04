@@ -7,18 +7,7 @@ import {persons} from "../../persons";
 import {shuffleArray} from "../../utils/shuffle-array.ts";
 import cn from 'classnames';
 import type {Person} from "../../types";
-
-function secondsToMmSs(secs: number): string {
-    // Calculate minutes and seconds
-    const minutes = Math.floor(secs / 60); // Get the whole minutes
-    const seconds = Math.floor(secs % 60); // Get the remaining seconds
-
-    // Use padStart to ensure two digits for both minutes and seconds
-    const formattedMinutes = String(minutes).padStart(2, '0');
-    const formattedSeconds = String(seconds).padStart(2, '0');
-
-    return `${formattedMinutes}:${formattedSeconds}`;
-}
+import {secondsToMmSs} from "../../utils/seconds-to-mm-ss.ts";
 
 const total = persons.length;
 
@@ -36,12 +25,16 @@ export const Game: React.FC = () => {
         if (!imgRef.current) {
             return
         }
+        const id = window.setTimeout(() => {
+            setLoadingImage(true);
+        }, 500);
         function load() {
+            clearInterval(id);
             setLoadingImage(false);
         }
-        setLoadingImage(true);
         imgRef.current!.addEventListener('load', load);
         return function () {
+            clearInterval(id);
             if (!imgRef.current) {
                 return
             }
@@ -52,6 +45,8 @@ export const Game: React.FC = () => {
         const random = new Randomizer(persons);
         setPerson(random.getPerson());
         setRand(random);
+    }, [])
+    React.useEffect(() => {
         intervalID.current = window.setInterval(() => {
             setSeconds((prevState) => prevState + 1);
         }, 1000)
@@ -116,7 +111,7 @@ export const Game: React.FC = () => {
                         <div key={fp.surname} className={cn(classes.person, {
                             [classes.short]: fp.name.length > 10 || fp.surname.length > 10
                         })} onClick={() => onChoice(fp)}>
-                            <div>{fp.name}</div>
+                            {!!fp.name && <div>{fp.name}</div>}
                             <div>{fp.surname}</div>
                         </div>
                     ))}

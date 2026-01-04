@@ -439,4 +439,178 @@ export const persons: Person[] = [
         country: 'Россия',
         images: ["https://i.ibb.co/RGw83FjF/kak-pavel-mamaev-chudil-v-cska-15836607061268918853.jpg"]
     },
+    {
+        name: 'Чиди',
+        surname: 'Одиа',
+        country: 'Нигерия',
+        images: ["https://mf.b37mrtl.ru/russian/images/2025.05/article/682f51b402e8bd0b3c7cd7b7.png"]
+    },
+    {
+        name: 'Кейсуке',
+        surname: 'Хонда',
+        country: 'Япония',
+        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/09/d3/2bcab0255d6b7bf578ad7f6601225967557a8a007b5da681807792.jpg"]
+    },
+    {
+        name: 'Денис',
+        surname: 'Евсиков',
+        country: 'Россия',
+        images: ["https://i.ibb.co/1GywZ3ZS/TASS-69170-pic4-zoom-1500x1500-59954.jpg"]
+    },
+    {
+        name: 'Денис',
+        surname: 'Попов',
+        country: 'Россия',
+        images: ["https://ss.sport-express.ru/userfiles/materials/55/556937/large.jpg"]
+    },
+    {
+        name: 'Даниэл',
+        surname: 'Карвальо',
+        country: 'Бразилия',
+        images: ["https://ss.sport-express.net/userfiles/materials/195/1955854/volga.jpg"]
+    },
+    {
+        name: 'Сеаренсе',
+        surname: 'Дуду',
+        country: 'Бразилия',
+        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/38/89/043b95f21589c76f2ffa78c6cca49b8f64370c3be3ed1352244540.jpg"]
+    },
+    {
+        name: 'Максим',
+        surname: 'Мухин',
+        country: 'Россия',
+        images: ["https://ss.sport-express.ru/userfiles/materials/175/1753543/volga.jpg"]
+    },
+    {
+        name: 'Антон',
+        surname: 'Заболотный',
+        country: 'Россия',
+        images: ["https://img.championat.com/c/1200x900/news/big/g/b/zabolotnyj-vozvraschaetsya-v-cska_1620415763919510415.jpg"]
+    },
+    {
+        name: 'Константин',
+        surname: 'Базелюк',
+        country: 'Россия',
+        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/8b/10/9290303ff833e1e995c9dd8a6359eafc57ce8d8ba7669323914444.jpg"]
+    },
+    {
+        name: 'Арнор',
+        surname: 'Сигурдссон',
+        country: 'Исландия',
+        images: ["https://cdn.sportsdaily.prod.plat.agency/d62a4f19aba6f7b612b5db868ef604a5_d4017d912b.jpg"]
+    },
+    {
+        name: 'Хёрдур',
+        surname: 'Магнуссон',
+        country: 'Исландия',
+        images: ["https://s-cdn.sportbox.ru/images/styles/1200-auto/fp_fotos/96/48/f539bbd5190937b4680a2599a499a030606b068868aa6259859536.jpg"]
+    },
+    {
+        name: 'Чидера',
+        surname: 'Эджуке',
+        country: 'Нигерия',
+        images: ["https://s-cdn.sportbox.ru/images/styles/1920_1080/fp_fotos/ce/91/305a7c1824768d199faa70afd94823486096fee632a1b922933728.jpg"]
+    },
+    {
+        name: 'Томаш',
+        surname: 'Нецид',
+        country: 'Чехия',
+        images: ["https://cdn.iz.ru/sites/default/files/styles/900x506/public/article-2017-05/pavbar37.png.jpg?itok=dCn08sR5"]
+    },
+    {
+        name: 'Вадим',
+        surname: 'Карпов',
+        country: 'Россия',
+        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/c6/c8/30cc766722e430f37b7ce656ade54f755dc3f6e874da7976241212.jpg"]
+    },
+    {
+        name: 'Саша',
+        surname: 'Зделар',
+        country: 'Сербия',
+        images: ["https://ss.sport-express.ru/userfiles/materials/192/1926264/volga.jpg"]
+    },
+    {
+        name: 'Вениамин',
+        surname: 'Мандрыкин',
+        country: 'Россия',
+        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/82/a5/eade0edc2102fb8c0c58a6096578262b5a679b21d8cc2061305188.jpg"]
+    },
+    {
+        name: 'Бактиёр',
+        surname: 'Зайнутдинов',
+        country: 'Казахстан',
+        images: ["https://ss.sport-express.ru/userfiles/materials/166/1668510/volga.jpg"]
+    },
+    {
+        name: '',
+        surname: 'Витиньо',
+        country: 'Бразилия',
+        images: ["https://s-cdn.sportbox.ru/images/styles/1920_1080/fp_fotos/a5/f1/54b8bb4736767.jpg"]
+    },
+    {
+        name: '',
+        surname: 'Жо',
+        country: 'Бразилия',
+        images: ["https://s-cdn.sportbox.ru/images/styles/1920_1080/fp_fotos/91/bd/1915f46c39ba10fa833511a046b62c84559575a78f860864914018.jpg"]
+    },
+    {
+        name: 'Иржи',
+        surname: 'Ярошик',
+        country: 'Чехия',
+        images: ["https://s-cdn.sportbox.ru/images/styles/1200-auto/fp_fotos/dd/81/4d9bb9c977649c5cb69a7bb66533a4d15cec48515bf00736908390.jpg"]
+    },
+    {
+        name: 'Виктор',
+        surname: 'Мендес',
+        country: 'Чили',
+        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/8f/e2/7cf0c3fec5c0b8ecb1f05312f47ccbe76462654666fab449695147.jpg"]
+    },
+    {
+        name: 'Марк',
+        surname: 'Гонсалес',
+        country: 'Чили',
+        images: ["https://s-cdn.sportbox.ru/images/styles/1200-auto/fp_fotos/f6/db/54942c9329072.jpg"]
+    },
+    {
+        name: 'Виктор',
+        surname: 'Давила',
+        country: 'Чили',
+        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/ba/07/37956e29327c31ef1596264b2481d4aa654f6c7af2d5d773806036.jpg"]
+    },
+    {
+        name: 'Аббосбек',
+        surname: 'Файзуллаев',
+        country: 'Узбекистан',
+        images: ["https://s-cdn.sportbox.ru/images/styles/1200-auto/fp_fotos/36/38/0553cfd52726c8fafbf188fe9927a69c6623fbb4723b1432036829.jpg"]
+    },
+    {
+        name: 'Дуглас',
+        surname: 'Келлвен',
+        country: 'Бразилия',
+        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/25/70/659ed9bd2ac7129354ab90915f0a56ea650d7a4564b0f346586547.jpg"]
+    },
+    {
+        name: 'Константин',
+        surname: 'Марадишвили',
+        country: 'Россия',
+        images: ["https://cdn.sportsdaily.prod.plat.agency/b77ee7bcb9c26532a8fe5fe18e9654f1_625aca45fe.jpg"]
+    },
+    {
+        name: 'Хорхе',
+        surname: 'Карраскаль',
+        country: 'Колумбия',
+        images: ["https://ss.sport-express.ru/userfiles/materials/192/1924733/volga.jpg"]
+    },
+    {
+        name: 'Хесус',
+        surname: 'Медина',
+        country: 'Парагвай',
+        images: ["https://s-cdn.sportbox.ru/images/styles/1920_1080/fp_fotos/69/b3/6b7285eca321cfd760d5d7e8a78c3457630240d49e7c0901334963.jpg"]
+    },
+    {
+        name: 'Адольфо',
+        surname: 'Гайч',
+        country: 'Аргентина',
+        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/1e/b0/04629e0c8492937d1ea73e19596707ab638090546e75f072406286.jpg"]
+    },
 ]
