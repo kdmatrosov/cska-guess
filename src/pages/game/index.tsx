@@ -26,10 +26,28 @@ export const Game: React.FC = () => {
     let navigate = useNavigate();
     const [rand, setRand] = useState(() => new Randomizer(persons));
     const [finished, setFinished] = useState(false);
+    const [loadingImage, setLoadingImage] = useState(false);
     const [guessed, setGuessed] = useState(0);
     const [seconds, setSeconds] = useState(0);
     const [person, setPerson] = useState<Person | undefined>();
     const intervalID = useRef(0);
+    const imgRef = useRef<HTMLImageElement | null>(null)
+    React.useEffect(() => {
+        if (!imgRef.current) {
+            return
+        }
+        function load() {
+            setLoadingImage(false);
+        }
+        setLoadingImage(true);
+        imgRef.current!.addEventListener('load', load);
+        return function () {
+            if (!imgRef.current) {
+                return
+            }
+            imgRef.current!.removeEventListener('load', load);
+        }
+    }, [person])
     React.useEffect(() => {
         const random = new Randomizer(persons);
         setPerson(random.getPerson());
@@ -91,7 +109,8 @@ export const Game: React.FC = () => {
                 <div className={classes.timer}>{timer}</div>
             </div>
             <div className={classes.game}>
-                <img src={image} alt="" key={image} className={classes.image}/>
+                {loadingImage && <div className={classes.imageLoading}>Загрузка фотографии...</div>}
+                <img src={image} ref={imgRef} alt="" key={image} className={classes.image}/>
                 <div className={classes.persons}>
                     {finalPersons.map((fp) => (
                         <div key={fp.surname} className={cn(classes.person, {

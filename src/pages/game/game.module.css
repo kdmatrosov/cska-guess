@@ -5,12 +5,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 48px;
+    padding-top: 64px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 16px 8px;
     align-self: normal;
 }
@@ -34,6 +35,15 @@
 
 .image {
     width: 100%;
+}
+
+.imageLoading {
+    width: 100%;
+    padding: 16px;
+    text-transform: uppercase;
+    color: var(--base-white);
+    background-color: var(--base-blue);
+    text-align: center;
 }
 
 .game {

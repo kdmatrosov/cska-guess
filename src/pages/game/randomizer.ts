@@ -18,8 +18,10 @@ export class Randomizer {
     getPerson(): Person {
         const index = getRandomInt(this.filteredPersons.length);
         const person = this.filteredPersons[index];
-        console.log('getPerson', person, index, this.filteredPersons)
-        this.filteredPersons = this.filteredPersons.filter(({surname}) => surname !== person.surname);
+        this.filteredPersons = this.filteredPersons.filter(({
+                                                                surname,
+                                                                name
+                                                            }) => surname !== person.surname || name !== person.name);
         this.memoryPersons.push(person);
         return person;
     }

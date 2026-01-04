@@ -391,4 +391,52 @@ export const persons: Person[] = [
         country: 'Россия',
         images: ["https://pfc-cska.com/uploads/content/x_bitrix/pfc-cska.com/upload/medialibrary/1b0/i_C6Z2Lhv_XL.jpg"]
     },
+    {
+        name: 'Сергей',
+        surname: 'Семак',
+        country: 'Россия',
+        images: ["https://football-pitch.ru/wp-content/uploads/2018/02/sergey-semak-kapitan-zska.jpg"]
+    },
+    {
+        name: 'Георгий',
+        surname: 'Щенников',
+        country: 'Россия',
+        images: ["https://pfc-cska.com/uploads/content/x_bitrix/pfc-cska.com/upload/news/shchennikov_krasnodar.jpg"]
+    },
+    {
+        name: 'Дейвидас',
+        surname: 'Шемберас',
+        country: 'Литва',
+        images: ["https://cdn-m.sport24.ru/m/901b/dde5/4995/4367/bf1d/1cc9/a6f4/d08d/1200_10000_max.jpeg"]
+    },
+    {
+        name: 'Элвир',
+        surname: 'Рахимич',
+        country: 'Босния и Герцеговина',
+        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/e8/d8/8d0a79755a7584e19985ea15d1874dae5d170bd1cd9ed638050366.jpg"]
+    },
+    {
+        name: 'Вагнер',
+        surname: 'Лав',
+        country: 'Бразилия',
+        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/27/be/3d1eb2ae9c6f92913cb29b22a10563655edd426fa8145282009720.jpg", "https://img.gazeta.ru/files3/167/13115167/RIAN_1471301.HR-pic905-895x505-98055.jpg"]
+    },
+    {
+        name: 'Ролан',
+        surname: 'Гусев',
+        country: 'Россия',
+        images: ["https://ss.sport-express.ru/userfiles/materials/193/1933765/full.jpg"]
+    },
+    {
+        name: 'Юрий',
+        surname: 'Жирков',
+        country: 'Россия',
+        images: ["https://img.championat.com/s/732x488/news/big/i/f/yurij-zhirkov-nazval-dvuh-sa.jpg"]
+    },
+    {
+        name: 'Павел',
+        surname: 'Мамаев',
+        country: 'Россия',
+        images: ["https://i.ibb.co/RGw83FjF/kak-pavel-mamaev-chudil-v-cska-15836607061268918853.jpg"]
+    },
 ]
