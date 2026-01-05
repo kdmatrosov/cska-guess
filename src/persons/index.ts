@@ -723,10 +723,8 @@ export const persons: Person[] = [
         name: 'Наир',
         surname: 'Тикнизян',
         country: 'Армения',
-        images: ["https://i.ibb.co/9kB9DTtB/tikniz.jpg",
-            "https://i.ibb.co/wFztvfyY/image.png",
-            "https://i.ibb.co/zhqr9nC6/image.png",
-            "https://i.ibb.co/8gtPDQgm/image.png"]
+        images: [],
+        id: 'tiknizyan',
     },
     {
         name: 'Ласина',

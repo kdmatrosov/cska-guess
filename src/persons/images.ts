@@ -24,6 +24,10 @@ import traore from './images/traore.jpg'
 import traore2 from './images/traore2.jpg'
 import traore3 from './images/traore3.jpg'
 import traore4 from './images/traore4.jpg'
+import tiknizyan from './images/tiknizyan.jpg'
+import tiknizyan2 from './images/tiknizyan2.jpg'
+import tiknizyan3 from './images/tiknizyan3.jpg'
+import tiknizyan4 from './images/tiknizyan4.jpg'
 import gajic from './images/gajic.jpg'
 import gajic2 from './images/gajic2.jpg'
 import krugovoi from './images/krugovoi.jpg'
@@ -36,6 +40,7 @@ import lukin2 from './images/lukin2.jpg'
 
 export const images = {
     akinfeev: [akinfeev, akinfeev2, akinfeev3],
+    tiknizyan: [tiknizyan, tiknizyan2, tiknizyan3, tiknizyan4],
     traore: [traore, traore2, traore3, traore4],
     moises: [moises, moises2, moises3, moises4],
     netfullin: [netfullin, netfullin2, netfullin3],
