@@ -36,26 +36,14 @@ export const Game: React.FC = () => {
             setLoadingImage(false);
         }
 
-        // TODO: переделать
-        function error() {
-            load()
-            setStep((prevState) => prevState + 1);
-            if (step === total) {
-                finish()
-            } else {
-                setPerson(rand.getPerson());
-            }
-        }
 
         imgRef.current!.addEventListener('load', load);
-        imgRef.current!.addEventListener('error', error);
         return function () {
             clearInterval(id);
             if (!imgRef.current) {
                 return
             }
             imgRef.current!.removeEventListener('load', load);
-            imgRef.current!.removeEventListener('error', error);
         }
     }, [person])
     React.useEffect(() => {

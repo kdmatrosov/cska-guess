@@ -1,0 +1,26 @@
+import akinfeev from './images/akinfeev.jpg'
+import akinfeev2 from './images/akinfeev2.jpg'
+import akinfeev3 from './images/akinfeev3.jpg'
+import torop from './images/torop.jpg'
+import torop2 from './images/torop2.jpg'
+import torop3 from './images/torop3.jpg'
+import diveev from './images/diveev.jpg'
+import diveev2 from './images/diveev2.jpg'
+import diveev3 from './images/diveev3.jpg'
+import gajic from './images/gajic.jpg'
+import gajic2 from './images/gajic2.jpg'
+import krugovoi from './images/krugovoi.jpg'
+import krugovoi2 from './images/krugovoi2.jpg'
+import victor from './images/victor.jpg'
+import abdulkadyrov from './images/abdulkadyrov.jpg'
+import abdulkadyrov2 from './images/abdulkadyrov2.jpg'
+
+export const images = {
+    akinfeev: [akinfeev, akinfeev2, akinfeev3],
+    diveev: [diveev, diveev2, diveev3],
+    torop: [torop, torop2, torop3],
+    abdulkadyrov: [abdulkadyrov, abdulkadyrov2],
+    krugovoi: [krugovoi, krugovoi2],
+    gajic: [gajic, gajic2],
+    victor: [victor],
+}

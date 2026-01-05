@@ -5,4 +5,5 @@ export type Person = {
     surname: string;
     country: Country;
     images: string[];
+    id?: string;
 }

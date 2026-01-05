@@ -1,47 +1,56 @@
 import type {Person} from "../types";
+import {images} from "./images.ts";
+
 
 export const persons: Person[] = [
     {
+        id: 'akinfeev',
         name: 'Игорь',
         surname: 'Акинфеев',
         country: 'Россия',
-        images: ["https://i.ibb.co/M5MNcmng/akinfeev.jpg", "https://i.ibb.co/XZn4C9dk/akinfeev2.jpg", "https://i.ibb.co/WQqxvPN/akinfeev3.jpg"]
+        images: [],
     },
     {
+        id: 'torop',
         name: 'Владислав',
         surname: 'Тороп',
         country: 'Россия',
-        images: ["https://i.ibb.co/N29dDd6x/torop1.jpg", "https://i.ibb.co/0RNNbfjk/87a35132bab0810149f04d270e47d16a68128809b717d371758921.jpg", "https://i.ibb.co/5V74F19/torop-1858.jpg"]
+        images: [],
     },
     {
+        id: 'gajic',
         name: 'Милан',
         surname: 'Гайич',
         country: 'Сербия',
-        images: ["https://i.ibb.co/VcmZyxWD/gajic.jpg", "https://i.ibb.co/PG9W9JDZ/ac74526a0b80a25b335be19450d2a3c76322f4fa93377082053910.jpg"]
+        images: [],
     },
     {
+        id: 'abdulkadyrov',
         name: 'Джамалутдин',
         surname: 'Абдулкадыров',
         country: 'Россия',
-        images: ["https://i.ibb.co/nNZJ4hVQ/abdulkadyrov1.jpg"]
+        images: []
     },
     {
         name: 'Игорь',
         surname: 'Дивеев',
         country: 'Россия',
-        images: ["https://i.ibb.co/pBHqL3NS/diveev.jpg", "https://i.ibb.co/C32P6R6P/593f3eb0720f23f99438dfde3c80cf5566a4f28c1de5b468551689.jpg", "https://i.ibb.co/BHvj1zQx/div1.jpg"]
+        images: [],
+        id: 'diveev',
     },
     {
         name: 'Жоао',
         surname: 'Виктор',
         country: 'Бразилия',
-        images: ["https://i.ibb.co/ksMZq2wx/victor1.webp"]
+        images: [],
+        id: 'victor',
     },
     {
         name: 'Данил',
         surname: 'Круговой',
         country: 'Россия',
-        images: ["https://i.ibb.co/JjxmJJyz/krugovoi.webp", "https://i.ibb.co/Ngs6NZsk/01-131-jpg.webp"]
+        id: 'krugovoi',
+        images: []
     },
     {
         name: 'Матвей',
@@ -756,4 +765,11 @@ export const persons: Person[] = [
             "https://i.ibb.co/20VKn4tt/image.png",
             "https://i.ibb.co/ch9z4rDc/image.png"]
     },
-]
+].map((person) => {
+    if (!person.id) {
+        return person as Person;
+    }
+    // @ts-ignore игнорируем ошибку ключа
+    const imgs: string[] = images[person.id] ?? [];
+    return {...person, images: imgs} as Person;
+})
