@@ -5,13 +5,13 @@ export const persons: Person[] = [
         name: 'Игорь',
         surname: 'Акинфеев',
         country: 'Россия',
-        images: ["https://i.ibb.co/XkXBYKGV/akinfeev.jpg", "https://i.ibb.co/JFwx2XMJ/akinfeev2.jpg", "https://i.ibb.co/WNwfzZw9/akinfeev3.jpg"]
+        images: ["https://i.ibb.co/M5MNcmng/akinfeev.jpg", "https://i.ibb.co/XZn4C9dk/akinfeev2.jpg", "https://i.ibb.co/WQqxvPN/akinfeev3.jpg"]
     },
     {
         name: 'Владислав',
         surname: 'Тороп',
         country: 'Россия',
-        images: ["https://i.ibb.co/nMWRvBqp/torop1.jpg", "https://i.ibb.co/WNq5gbHT/87a35132bab0810149f04d270e47d16a68128809b717d371758921.jpg"]
+        images: ["https://i.ibb.co/N29dDd6x/torop1.jpg", "https://i.ibb.co/0RNNbfjk/87a35132bab0810149f04d270e47d16a68128809b717d371758921.jpg", "https://i.ibb.co/5V74F19/torop-1858.jpg"]
     },
     {
         name: 'Милан',
@@ -77,13 +77,15 @@ export const persons: Person[] = [
         name: 'Родриго',
         surname: 'Вильягра',
         country: 'Аргентина',
-        images: ["https://ss.sport-express.ru/userfiles/materials/216/2160988/720x405.jpg"]
+        images: ["https://i.ibb.co/kVTp73kb/720x405.jpg", "https://i.ibb.co/fz4gB1bv/67a8166-2-ae9c1606ca183cb2b9cea6ea149969e0.jpg"]
     },
     {
         name: 'Глеб',
         surname: 'Пополитов',
         country: 'Россия',
-        images: ["https://avatars.mds.yandex.net/i?id=e16b37cfe8f7ef1368e6d3eaff0b1dbfa78eaa94-4607549-images-thumbs&n=13"]
+        images: ["https://i.ibb.co/RG3CcnMH/0a8ad0c9c64e03f0081b10728ff8c3b168d98a4277dd4402194630.jpg",
+            "https://i.ibb.co/FbpXJCcq/ore1125-3840.jpg",
+            "https://i.ibb.co/5xSs1LNk/4-Xum-M8-Psnt-E.jpg"]
     },
     {
         name: 'Даниэль',
@@ -95,37 +97,47 @@ export const persons: Person[] = [
         name: 'Матвей',
         surname: 'Кисляк',
         country: 'Россия',
-        images: ["https://oskol.city/upload/resize_cache/iblock/6c0/ltwnmcypysasfq6l3q1nlg0jxxwc1dbr/856_569_1/Kislyak.jpg"]
+        images: ["https://i.ibb.co/8LyyGVPx/fb58a6748b6b82dd1f0feb69cd7b105c68e2a39f0dd97318890678.jpg",
+        "https://i.ibb.co/9mym1PHC/Kislyak-RPL-0.jpg",
+        "https://i.ibb.co/wZ5xFXY8/image.png"]
     },
     {
         name: 'Лионель',
         surname: 'Верде',
         country: 'Аргентина',
-        images: ["https://cdn-storage-media.tass.ru/resize/752x496/tass_media/2025/10/22/S/1761117091290441_SXXTwtlQ.jpg"]
+        images: ["https://i.ibb.co/9x1PPnw/image.png",
+        "https://i.ibb.co/9kTZNCbc/image.png",
+        "https://i.ibb.co/chsfdLbC/image.png"]
     },
     {
         name: 'Матеус',
         surname: 'Алвес',
         country: 'Бразилия',
-        images: ["https://photobooth.cdn.sports.ru/preset/wysiwyg/8/10/3cdbd13ab4baeb04660626581cab1.jpeg?w=730&f=webp&s=2x"]
+        images: ["https://i.ibb.co/Jw43226c/image.png",
+        "https://i.ibb.co/2777Rxj8/image.png",
+        "https://i.ibb.co/7JvQj2P0/image.png"]
     },
     {
         name: 'Матия',
         surname: 'Попович',
         country: 'Сербия',
-        images: ["https://cdn.sovsport.prod.plat.agency/Matia_Popovich_pfc_CSKA_24b9eb00a8.webp"]
+        images: ["https://i.ibb.co/PZXx3Lbx/image.png",
+        "https://i.ibb.co/hRwVJkwp/image.png"]
     },
     {
         name: 'Иван',
         surname: 'Обляков',
         country: 'Россия',
-        images: ["https://www.rusfootball.info/uploads/posts/2025-12/1767022640_cska26.jpg"]
+        images: ["https://i.ibb.co/PsfKQrRg/image.png",
+        "https://i.ibb.co/R18cq6X/image.png",
+        "https://i.ibb.co/zW67yF85/image.png"]
     },
     {
         name: 'Энрике',
         surname: 'Кармо',
         country: 'Бразилия',
-        images: ["https://img.championat.com/news/big/g/m/igrok-cska-karmo-o-matche-so-spartakom-mne-bylo-vazhno-sygrat-v-rossijskom-klasiko_17613378741777648866.jpg"]
+        images: ["https://i.ibb.co/G48FvwSQ/image.png",
+        "https://i.ibb.co/C5tGHw7x/image.png"]
     },
     {
         name: 'Манса',
@@ -149,13 +161,16 @@ export const persons: Person[] = [
         name: 'Артём',
         surname: 'Шуманский',
         country: 'Белоруссия',
-        images: ["https://s-cdn.sportbox.ru/images/styles/1200-auto/fp_fotos/c7/60/0c8c69d3bc572438e40dbde7e7b3c8676831e6036583a459879999.jpg"]
+        images: ["https://i.ibb.co/Qxv1S9v/image.png",
+        "https://i.ibb.co/xn7gpmP/image.png"]
     },
     {
         name: 'Илья',
         surname: 'Шкурин',
         country: 'Белоруссия',
-        images: ["https://s-cdn.sportbox.ru/images/styles/1200-auto/fp_fotos/0d/dd/7cab4ab39d691d54a5eba8db8e9952d161f2b824507e4743402442.png"]
+        images: ["https://i.ibb.co/dyxFJDF/image.png",
+        "https://i.ibb.co/Sw1HRKfD/image.png",
+        "https://i.ibb.co/Wvyzq9JT/image.png"]
     },
     {
         name: 'Виллиан',
@@ -731,14 +746,14 @@ export const persons: Person[] = [
         surname: 'Ратиньо',
         country: 'Бразилия',
         images: ["https://i.ibb.co/tP23gHwC/image.png",
-        "https://i.ibb.co/vCkmHrnh/rue12d8c3814e.jpg"]
+            "https://i.ibb.co/vCkmHrnh/rue12d8c3814e.jpg"]
     },
     {
         name: 'Ника',
         surname: 'Пилиев',
         country: 'Россия',
         images: ["https://i.ibb.co/Z1pgvwYp/image.png",
-        "https://i.ibb.co/20VKn4tt/image.png",
-        "https://i.ibb.co/ch9z4rDc/image.png"]
+            "https://i.ibb.co/20VKn4tt/image.png",
+            "https://i.ibb.co/ch9z4rDc/image.png"]
     },
 ]
