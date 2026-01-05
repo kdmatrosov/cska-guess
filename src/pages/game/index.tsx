@@ -17,6 +17,8 @@ export const Game: React.FC = () => {
     const [finished, setFinished] = useState(false);
     const [loadingImage, setLoadingImage] = useState(false);
     const [guessed, setGuessed] = useState(0);
+    const [step, setStep] = useState(1);
+    const [error, setError] = useState<'mistake' | undefined>();
     const [seconds, setSeconds] = useState(0);
     const [person, setPerson] = useState<Person | undefined>();
     const intervalID = useRef(0);
@@ -34,13 +36,26 @@ export const Game: React.FC = () => {
             setLoadingImage(false);
         }
 
+        // TODO: переделать
+        function error() {
+            load()
+            setStep((prevState) => prevState + 1);
+            if (step === total) {
+                finish()
+            } else {
+                setPerson(rand.getPerson());
+            }
+        }
+
         imgRef.current!.addEventListener('load', load);
+        imgRef.current!.addEventListener('error', error);
         return function () {
             clearInterval(id);
             if (!imgRef.current) {
                 return
             }
             imgRef.current!.removeEventListener('load', load);
+            imgRef.current!.removeEventListener('error', error);
         }
     }, [person])
     React.useEffect(() => {
@@ -84,14 +99,16 @@ export const Game: React.FC = () => {
         clearInterval(intervalID.current);
     }
     const onChoice = (chosen: Person) => {
+        setStep((prevState) => prevState + 1);
+        if (step === total) {
+            finish()
+        }
         if (chosen.surname === person!.surname) {
             setGuessed((prevState) => prevState + 1);
             setPerson(rand.getPerson());
-            if (guessed + 1 === total) {
-                finish()
-            }
         } else {
             finish();
+            setError('mistake')
         }
     };
     if (finished) {
@@ -101,7 +118,7 @@ export const Game: React.FC = () => {
                     <div className={classes.resultGuessed}>Угадано {guessed} из {Math.min(guessed + 1, total)}</div>
                     <div className={classes.resultTimer}>Время {seconds === 0 ? 'истекло' : timer}</div>
                 </div>
-                {guessed !== total && (
+                {error !== undefined && (
                     <div className={classes.resultNotGuessed}>
                         <img src={image} ref={imgRef} alt="" key={image} className={classes.image}/>
                         <div className={classes.resultNotGuessedText}>
