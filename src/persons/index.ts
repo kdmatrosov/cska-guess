@@ -143,7 +143,7 @@ export const persons: Person[] = [
         name: 'Тамерлан',
         surname: 'Мусаев',
         country: 'Россия',
-        images: ["https://cdn-m.sport24.ru/m/ca77/a531/9409/428c/a969/5ae5/6334/d646/1200_10000_max.webp","https://mf.b37mrtl.ru/russian/images/2025.09/article/68d92d0aae5ac956cf1cb6ce.jpg"]
+        images: ["https://cdn-m.sport24.ru/m/ca77/a531/9409/428c/a969/5ae5/6334/d646/1200_10000_max.webp", "https://mf.b37mrtl.ru/russian/images/2025.09/article/68d92d0aae5ac956cf1cb6ce.jpg"]
     },
     {
         name: 'Артём',
@@ -179,7 +179,7 @@ export const persons: Person[] = [
         name: 'Сергей',
         surname: 'Игнашевич',
         country: 'Россия',
-        images: ["https://s-cdn.sportbox.ru/images/styles/1920_1080/fp_fotos/62/0e/cc9047f282745092946abfa7591845a35afa8f3232da4734352386.jpg","https://cdn5.vedomosti.ru/image/2023/7k/pp0rf/original-xau.jpg", "https://cdnn21.img.ria.ru/images/rsport/113966/51/1139665197_0:0:3154:1774_650x0_80_0_0_46b6ba2695a73377702b1e9b7d5f1bc4.jpg"]
+        images: ["https://s-cdn.sportbox.ru/images/styles/1920_1080/fp_fotos/62/0e/cc9047f282745092946abfa7591845a35afa8f3232da4734352386.jpg", "https://cdn5.vedomosti.ru/image/2023/7k/pp0rf/original-xau.jpg", "https://cdnn21.img.ria.ru/images/rsport/113966/51/1139665197_0:0:3154:1774_650x0_80_0_0_46b6ba2695a73377702b1e9b7d5f1bc4.jpg"]
     },
     {
         name: 'Виктор',
@@ -612,5 +612,41 @@ export const persons: Person[] = [
         surname: 'Гайч',
         country: 'Аргентина',
         images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/1e/b0/04629e0c8492937d1ea73e19596707ab638090546e75f072406286.jpg"]
+    },
+    {
+        name: '',
+        surname: 'Рамон',
+        country: 'Бразилия',
+        images: ["https://tmssl.akamaized.net//images/foto/galerie/ramon-zska-moskau-1614606877-57757.jpg?lm=1614606897"]
+    },
+    {
+        name: 'Бруно',
+        surname: 'Фукс',
+        country: 'Бразилия',
+        images: ["https://i.ibb.co/bjZCC0Kj/Bruno-Fuks-Cz-SKA-RIA-Novosti-fa38c7d8e0.webp", "https://i.ibb.co/tM29FQ3R/11b3b0be169a.jpg"]
+    },
+    {
+        name: 'Давид',
+        surname: 'Янчик',
+        country: 'Польша',
+        images: ["https://i.ibb.co/SXnmsGJd/a3766c9ea2fa78c79df41b514b536e645b7a9d9e3755f391857190.jpg"]
+    },
+    {
+        name: 'Сауль',
+        surname: 'Гуарирапа',
+        country: 'Венесуэла',
+        images: ["https://i.ibb.co/vvgkBxjd/cska-obyavil-ob-uhode-saulya.jpg", "https://i.ibb.co/Q78mxZ7B/lazy-smart-crop-1280x720.jpg"]
+    },
+    {
+        name: 'Илья',
+        surname: 'Агапов',
+        country: 'Россия',
+        images: ["https://i.ibb.co/N6B901c6/64490e5493a68ecfc2987e8e503d8208653ebb465dfa1755557711.jpg"]
+    },
+    {
+        name: 'Мусса',
+        surname: 'Маазу',
+        country: 'Нигер',
+        images: ["https://i.ibb.co/x8d1c4bn/ouwo-moussa-maazou-pfc-cska-moskva.jpg"]
     },
 ]
