@@ -1,5 +1,5 @@
 import type {Person} from "../../types";
-import {shuffleArray} from "../../utils/shuffle-array.ts";
+import {shuffleArray, getCountriesMap} from "../../utils";
 
 function getRandomInt(max: number) {
     return Math.floor(Math.random() * max);
@@ -9,6 +9,7 @@ export class Randomizer {
     private filteredPersons: Person[];
     private memoryPersons: Person[] = [];
     private memory: number;
+    private countriesMap = getCountriesMap()
 
     constructor(persons: Person[], memory = 4) {
         this.filteredPersons = persons;
@@ -38,8 +39,14 @@ export class Randomizer {
         const result: Person[] = [];
         const from = this.filteredPersons.concat(this.memoryPersons.slice(0, -this.memory)).filter((fp) => fp.surname !== person.surname);
         shuffleArray(from);
-        for (let i = 0; i < 3; i++) {
-            result.push(from[i]);
+        let index = 0;
+        const countries = this.countriesMap[person.country];
+        while (result.length < 3) {
+            const elem = from[index];
+            index++;
+            if (!countries || !countries.size || countries.has(elem.country)) {
+                result.push(elem)
+            }
         }
         return result;
     }

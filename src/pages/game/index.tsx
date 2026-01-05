@@ -4,10 +4,9 @@ import {useNavigate} from "react-router";
 import {Hint} from "../../components";
 import {Randomizer} from "./randomizer.ts";
 import {persons} from "../../persons";
-import {shuffleArray} from "../../utils/shuffle-array.ts";
+import {shuffleArray, secondsToMmSs} from "../../utils";
 import cn from 'classnames';
 import type {Person} from "../../types";
-import {secondsToMmSs} from "../../utils/seconds-to-mm-ss.ts";
 
 const total = persons.length;
 

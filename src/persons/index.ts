@@ -41,7 +41,7 @@ export const persons: Person[] = [
         name: 'Данил',
         surname: 'Круговой',
         country: 'Россия',
-        images: ["https://i.ibb.co/JjxmJJyz/krugovoi.webp"]
+        images: ["https://i.ibb.co/JjxmJJyz/krugovoi.webp", "https://i.ibb.co/Ngs6NZsk/01-131-jpg.webp"]
     },
     {
         name: 'Матвей',
@@ -53,7 +53,7 @@ export const persons: Person[] = [
         name: 'Барбоза',
         surname: 'Мойзес',
         country: 'Бразилия',
-        images: ["https://i.ibb.co/xSVBB16p/moises.png"]
+        images: ["https://i.ibb.co/xSVBB16p/moises.png", "https://i.ibb.co/4RmFKPhp/a-HR0c-HM6-Ly9zd-G9y-YWdl-Lnlhbm-Rle-GNsb3-Vk-Lm5ld-C9z-My1t-ZXRhcm-F0a-W5ncy1zd-G9y-YWdl-L2lt-YWdlcy9.webp", "https://mf.b37mrtl.ru/russian/images/2023.10/article/651c101b02e8bd746a1f54cc.png", "https://cdn-storage-media.tass.ru/resize/688x456/tass_media/2025/12/07/q/1765134054973857_qs1D7eIK.jpg"]
     },
     {
         name: 'Рамиро',
