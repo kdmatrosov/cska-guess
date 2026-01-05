@@ -7,6 +7,13 @@ import torop3 from './images/torop3.jpg'
 import diveev from './images/diveev.jpg'
 import diveev2 from './images/diveev2.jpg'
 import diveev3 from './images/diveev3.jpg'
+import piliev from './images/piliev.jpg'
+import piliev2 from './images/piliev2.jpg'
+import piliev3 from './images/piliev3.jpg'
+import moises from './images/moises.jpg'
+import moises2 from './images/moises2.jpg'
+import moises3 from './images/moises3.jpg'
+import moises4 from './images/moises4.jpg'
 import gajic from './images/gajic.jpg'
 import gajic2 from './images/gajic2.jpg'
 import krugovoi from './images/krugovoi.jpg'
@@ -14,11 +21,16 @@ import krugovoi2 from './images/krugovoi2.jpg'
 import victor from './images/victor.jpg'
 import abdulkadyrov from './images/abdulkadyrov.jpg'
 import abdulkadyrov2 from './images/abdulkadyrov2.jpg'
+import lukin from './images/lukin.jpg'
+import lukin2 from './images/lukin2.jpg'
 
 export const images = {
     akinfeev: [akinfeev, akinfeev2, akinfeev3],
+    moises: [moises, moises2, moises3, moises4],
+    piliev: [piliev, piliev2, piliev3],
     diveev: [diveev, diveev2, diveev3],
     torop: [torop, torop2, torop3],
+    lukin: [lukin, lukin2],
     abdulkadyrov: [abdulkadyrov, abdulkadyrov2],
     krugovoi: [krugovoi, krugovoi2],
     gajic: [gajic, gajic2],

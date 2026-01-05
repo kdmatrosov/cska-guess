@@ -56,7 +56,8 @@ export const persons: Person[] = [
         name: 'Матвей',
         surname: 'Лукин',
         country: 'Россия',
-        images: ["https://i.ibb.co/m54GmkH4/lukin.jpg", "https://i.ibb.co/2mtPz4D/lukin2.jpg"]
+        id: 'lukin',
+        images: []
     },
     {
         name: 'Барбоза',
@@ -761,9 +762,8 @@ export const persons: Person[] = [
         name: 'Ника',
         surname: 'Пилиев',
         country: 'Россия',
-        images: ["https://i.ibb.co/Z1pgvwYp/image.png",
-            "https://i.ibb.co/20VKn4tt/image.png",
-            "https://i.ibb.co/ch9z4rDc/image.png"]
+        id: 'piliev',
+        images: []
     },
 ].map((person) => {
     if (!person.id) {
