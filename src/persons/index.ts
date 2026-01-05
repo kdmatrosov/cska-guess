@@ -63,7 +63,8 @@ export const persons: Person[] = [
         name: 'Барбоза',
         surname: 'Мойзес',
         country: 'Бразилия',
-        images: ["https://i.ibb.co/xSVBB16p/moises.png", "https://i.ibb.co/4RmFKPhp/a-HR0c-HM6-Ly9zd-G9y-YWdl-Lnlhbm-Rle-GNsb3-Vk-Lm5ld-C9z-My1t-ZXRhcm-F0a-W5ncy1zd-G9y-YWdl-L2lt-YWdlcy9.webp", "https://mf.b37mrtl.ru/russian/images/2023.10/article/651c101b02e8bd746a1f54cc.png", "https://cdn-storage-media.tass.ru/resize/688x456/tass_media/2025/12/07/q/1765134054973857_qs1D7eIK.jpg"]
+        id: 'moises',
+        images: []
     },
     {
         name: 'Рамиро',
@@ -123,9 +124,8 @@ export const persons: Person[] = [
         name: 'Матеус',
         surname: 'Алвес',
         country: 'Бразилия',
-        images: ["https://i.ibb.co/Jw43226c/image.png",
-        "https://i.ibb.co/2777Rxj8/image.png",
-        "https://i.ibb.co/7JvQj2P0/image.png"]
+        images: [],
+        id: 'alves',
     },
     {
         name: 'Матия',
@@ -732,10 +732,8 @@ export const persons: Person[] = [
         name: 'Ласина',
         surname: 'Траоре',
         country: 'Кот-д\'Ивуар',
-        images: ["https://i.ibb.co/84Rnt3rT/image.png",
-            "https://i.ibb.co/Kzxn0YQL/image.png",
-            "https://i.ibb.co/PGW0QzX2/image.png",
-            "https://i.ibb.co/r25tG3Cx/image.png"]
+        id: 'traore',
+        images: []
     },
     {
         name: 'Абель',
@@ -749,7 +747,8 @@ export const persons: Person[] = [
         name: 'Равиль',
         surname: 'Нетфуллин',
         country: 'Россия',
-        images: ["https://i.ibb.co/M5cTpZ48/image.png", "https://i.ibb.co/60bX2Fzs/image.png", "https://i.ibb.co/yBSMZL3R/rue9110356aab.jpg"]
+        images: [],
+        id: 'netfullin',
     },
     {
         name: 'Эдуардо',
