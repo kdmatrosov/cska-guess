@@ -19,6 +19,7 @@
     text-align: center;
     padding: 32px 0 16px;
     color: var(--base-blue);
+    white-space: pre-line;
 }
 
 .menu {

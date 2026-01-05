@@ -4,6 +4,7 @@ import {useNavigate} from "react-router";
 import {Hint} from "../../components";
 import {persons} from "../../persons";
 
+const title = 'ЦСКА\nУгадайка'
 
 export const Menu: React.FC = () => {
     let navigate = useNavigate();
@@ -13,7 +14,7 @@ export const Menu: React.FC = () => {
     return (
         <div className={classes.wrapper}>
             <div className={classes.name}>
-                ЦСКА. Угадайка
+                {title}
             </div>
             <div className={classes.menu}>
                 <div className={classes.menuItem} onClick={() => onMenuClick('game/one')}>
