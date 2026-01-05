@@ -2,11 +2,12 @@ import React from "react";
 import classes from './menu.module.css';
 import {useNavigate} from "react-router";
 import {Hint} from "../../components";
+import {persons} from "../../persons";
 
 
 export const Menu: React.FC = () => {
     let navigate = useNavigate();
-    const onMenuClick = (route: 'game') => {
+    const onMenuClick = (route: 'game/one' | 'game/time') => {
         navigate("/" + route);
     }
     return (
@@ -15,8 +16,12 @@ export const Menu: React.FC = () => {
                 ЦСКА. Угадайка
             </div>
             <div className={classes.menu}>
-                <div className={classes.menuItem} onClick={() => onMenuClick('game')}>
+                <div className={classes.menuItem} onClick={() => onMenuClick('game/one')}>
                     ДО ПЕРВОЙ ОШИБКИ
+                </div>
+                <div className={classes.menuItem} onClick={() => onMenuClick('game/time')}>
+                    {persons.length * 3} секунд
+                    <div className={classes.menuItemPostfix}>ДО ПЕРВОЙ ОШИБКИ</div>
                 </div>
             </div>
             <Hint />

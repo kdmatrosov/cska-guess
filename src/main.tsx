@@ -12,7 +12,7 @@ const router = createBrowserRouter([
         Component: Menu,
     },
     {
-        path: "/game",
+        path: "/game/:mode",
         Component: Game,
     },
 ]);

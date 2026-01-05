@@ -1,6 +1,6 @@
 import React, {useRef, useState} from "react";
 import classes from './game.module.css';
-import {useNavigate} from "react-router";
+import {useNavigate, useParams} from "react-router";
 import {Hint} from "../../components";
 import {Randomizer} from "./randomizer.ts";
 import {persons} from "../../persons";
@@ -12,6 +12,7 @@ const total = persons.length;
 
 export const Game: React.FC = () => {
     let navigate = useNavigate();
+    const params = useParams<{ mode: 'one' | 'time' }>();
     const [rand, setRand] = useState(() => new Randomizer(persons));
     const [finished, setFinished] = useState(false);
     const [loadingImage, setLoadingImage] = useState(false);
@@ -27,10 +28,12 @@ export const Game: React.FC = () => {
         const id = window.setTimeout(() => {
             setLoadingImage(true);
         }, 500);
+
         function load() {
             clearInterval(id);
             setLoadingImage(false);
         }
+
         imgRef.current!.addEventListener('load', load);
         return function () {
             clearInterval(id);
@@ -46,11 +49,21 @@ export const Game: React.FC = () => {
         setRand(random);
     }, [])
     React.useEffect(() => {
+        const timeMode = params.mode === 'time';
+        if (timeMode) {
+            setSeconds(persons.length * 3);
+        }
         intervalID.current = window.setInterval(() => {
-            setSeconds((prevState) => prevState + 1);
+            setSeconds((prevState) => {
+                if (timeMode && prevState === 1) {
+                    setFinished(true);
+                    clearInterval(intervalID.current);
+                }
+                return prevState + 1 * (timeMode ? -1 : 1)
+            });
         }, 1000)
         return () => clearInterval(intervalID.current);
-    }, [])
+    }, [params.mode])
     const timer = React.useMemo(() => secondsToMmSs(seconds), [seconds])
     const image = React.useMemo(() => rand.getImageFromPerson(person), [person])
     const finalPersons = React.useMemo(() => {
@@ -86,7 +99,7 @@ export const Game: React.FC = () => {
             <div className={classes.wrapper}>
                 <div className={classes.result}>
                     <div className={classes.resultGuessed}>Угадано {guessed} из {Math.min(guessed + 1, total)}</div>
-                    <div className={classes.resultTimer}>Время {timer}</div>
+                    <div className={classes.resultTimer}>Время {seconds === 0 ? 'истекло' : timer}</div>
                 </div>
                 {guessed !== total && (
                     <div className={classes.resultNotGuessed}>
@@ -115,7 +128,7 @@ export const Game: React.FC = () => {
                 <img src={image} ref={imgRef} alt="" key={image} className={classes.image}/>
                 <div className={classes.persons}>
                     {finalPersons.map((fp) => (
-                        <div key={fp.surname} className={cn(classes.person, {
+                        <div key={fp.surname + fp.name} className={cn(classes.person, {
                             [classes.short]: fp.name.length > 10 || fp.surname.length > 10
                         })} onClick={() => onChoice(fp)}>
                             {!!fp.name && <div>{fp.name}</div>}

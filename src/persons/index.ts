@@ -11,13 +11,13 @@ export const persons: Person[] = [
         name: 'Владислав',
         surname: 'Тороп',
         country: 'Россия',
-        images: ["https://i.ibb.co/nMWRvBqp/torop1.jpg"]
+        images: ["https://i.ibb.co/nMWRvBqp/torop1.jpg", "https://i.ibb.co/WNq5gbHT/87a35132bab0810149f04d270e47d16a68128809b717d371758921.jpg"]
     },
     {
         name: 'Милан',
         surname: 'Гайич',
         country: 'Сербия',
-        images: ["https://i.ibb.co/VcmZyxWD/gajic.jpg"]
+        images: ["https://i.ibb.co/VcmZyxWD/gajic.jpg", "https://i.ibb.co/PG9W9JDZ/ac74526a0b80a25b335be19450d2a3c76322f4fa93377082053910.jpg"]
     },
     {
         name: 'Джамалутдин',
@@ -29,7 +29,7 @@ export const persons: Person[] = [
         name: 'Игорь',
         surname: 'Дивеев',
         country: 'Россия',
-        images: ["https://i.ibb.co/pBHqL3NS/diveev.jpg"]
+        images: ["https://i.ibb.co/pBHqL3NS/diveev.jpg", "https://i.ibb.co/C32P6R6P/593f3eb0720f23f99438dfde3c80cf5566a4f28c1de5b468551689.jpg", "https://i.ibb.co/BHvj1zQx/div1.jpg"]
     },
     {
         name: 'Жоао',
@@ -71,7 +71,7 @@ export const persons: Person[] = [
         name: 'Артём',
         surname: 'Бандикян',
         country: 'Армения',
-        images: ["https://pfc-cska.com/uploads/content/news/2025-10/npa6530-(1)-(1).jpg"]
+        images: ["https://i.ibb.co/1fBk6p0m/npa6530-1-1.jpg", "https://i.ibb.co/NfRtBcY/a-HR0c-HM6-Ly9zd-G9y-YWdl-Lnlhbm-Rle-GNsb3-Vk-Lm5ld-C9z-My1t-ZXRhcm-F0a-W5ncy1zd-G9y-YWdl-L2lt-YWdlcy8.webp"]
     },
     {
         name: 'Родриго',
@@ -89,7 +89,7 @@ export const persons: Person[] = [
         name: 'Даниэль',
         surname: 'Руис',
         country: 'Колумбия',
-        images: ["https://cdn.sovsport.prod.plat.agency/Daniel_Ruis_pfc_CSKA_b001dbe375.webp"]
+        images: ["https://i.ibb.co/99qR7SGp/Daniel-Ruis-pfc-CSKA-b001dbe375.webp", "https://i.ibb.co/3Vgtp5Q/1758364237-da75feb2d82c58c04eb07895b36607702d77d073.jpg", "https://i.ibb.co/23WDD1xp/78b0581a755c8c48cc6b2780121cb70468ab4c1c03629742713733.jpg"]
     },
     {
         name: 'Матвей',
@@ -191,7 +191,7 @@ export const persons: Person[] = [
         name: 'Понтус',
         surname: 'Вернблум',
         country: 'Швеция',
-        images: ["https://s-cdn.sportbox.ru/images/styles/1920_1080/fp_fotos/1f/1b/496ecb499e6fd210cb231caaf4ab01575afc2f14ab847973734822.jpg"]
+        images: ["https://s-cdn.sportbox.ru/images/styles/1920_1080/fp_fotos/1f/1b/496ecb499e6fd210cb231caaf4ab01575afc2f14ab847973734822.jpg", "https://i.ibb.co/X17vyYW/fd721f82387280e780bc61b39d4fb71e5a015eca1e13e661232301.jpg"]
     },
     {
         name: 'Расмум',
@@ -203,7 +203,7 @@ export const persons: Person[] = [
         name: 'Александр',
         surname: 'Головин',
         country: 'Россия',
-        images: ["https://s-cdn.sportbox.ru/images/styles/1200-auto/fp_fotos/60/b9/771a8bd2612f8be34ae2143b85accd2759d0bf78897a2626472320.jpg"]
+        images: ["https://i.ibb.co/TM50RXbD/image.png", "https://i.ibb.co/YHWL74w/image.png", "https://i.ibb.co/HpgSvT3Z/image.png",]
     },
     {
         name: 'Алан',
@@ -305,13 +305,13 @@ export const persons: Person[] = [
         name: 'Зоран',
         surname: 'Тошич',
         country: 'Сербия',
-        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/e5/12/545a665dad32c.jpg"]
+        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/e5/12/545a665dad32c.jpg", "https://i.ibb.co/35qcz141/arut18-png.jpg"]
     },
     {
         name: 'Милош',
         surname: 'Красич',
         country: 'Сербия',
-        images: ["https://mf.b37mrtl.ru/russian/images/2020.09/article/5f50a216ae5ac96605574d46.jpg"]
+        images: ["https://mf.b37mrtl.ru/russian/images/2020.09/article/5f50a216ae5ac96605574d46.jpg", "https://i.ibb.co/gZPFXkrs/image.png"]
     },
     {
         name: 'Марио',
@@ -335,7 +335,7 @@ export const persons: Person[] = [
         name: 'Ильзат',
         surname: 'Ахметов',
         country: 'Россия',
-        images: ["https://img.championat.com/s/732x488/news/big/v/f/ilzat-ahmetov_15441357851883892943.jpg"]
+        images: ["https://i.ibb.co/5xT05YBG/ilzat-ahmetov-15441357851883892943.jpg", "https://i.ibb.co/xq0TXd63/fd721f82387280e780bc61b39d4fb71e5d9074dea2fd0839813967.jpg"]
     },
     {
         name: 'Родриго',
@@ -347,7 +347,7 @@ export const persons: Person[] = [
         name: 'Яка',
         surname: 'Бийол',
         country: 'Словения',
-        images: ["https://bobsoccer.ru/imagepreview/view/data/photo/31879.130089.IMG_2386.JPG"]
+        images: ["https://i.ibb.co/Q7tD0QwT/b1ee7937e61788288c91b9abfb77df5b5f5b848b1d1c3216256538.jpg", "https://i.ibb.co/gKPcB9z/bijol-zajavil-chto-nedovolen-svoim-polozheniem-v-csk-1585902328631125407.jpg", "https://i.ibb.co/3y9BfVbp/i-TJv-NZdg-X2.jpg"]
     },
     {
         name: 'Кристиан',
@@ -371,19 +371,26 @@ export const persons: Person[] = [
         name: 'Рифат',
         surname: 'Жемалетдинов',
         country: 'Россия',
-        images: ["https://img.championat.com/s/732x488/news/big/a/j/igrok-cska-zhemaletdinov-vse-moi-avtoshtrafy-za-skorost-hochetsya-ezdit-bystree_1739784001222072390.jpg"]
+        images: ["https://i.ibb.co/sztQFch/igrok-cska-zhemaletdinov-vse-moi-avtoshtrafy-za-skorost-hochetsya-ezdit-bystree-1739784001222072390.jpg",
+            "https://i.ibb.co/v65rFFHX/image.png",
+            "https://i.ibb.co/0VB2Qp42/image.png"]
     },
     {
         name: 'Тимур',
         surname: 'Жамалетдинов',
         country: 'Россия',
-        images: ["https://i.ibb.co/ycYp53HN/Ef-PP8-Lf-WAAEn-XJP.jpg"]
+        images: ["https://i.ibb.co/ycYp53HN/Ef-PP8-Lf-WAAEn-XJP.jpg",
+            "https://i.ibb.co/YB417c8X/fd721f82387280e780bc61b39d4fb71e5ba343af35d3d599940656.jpg",
+            "https://i.ibb.co/KpLB73nt/image.png",
+            "https://i.ibb.co/rNmfVKd/image.png"]
     },
     {
         name: 'Константин',
         surname: 'Кучаев',
         country: 'Россия',
-        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/1f/5f/e01ec7f6120c27cde74b9de894821e315e81f9afcc50f763942697.jpg"]
+        images: ["https://i.ibb.co/spnGBbHp/image.png",
+            "https://i.ibb.co/Lz1fMbz6/image.png",
+            "https://i.ibb.co/hx35QrzR/image.png"]
     },
     {
         name: 'Фёдор',
@@ -629,7 +636,7 @@ export const persons: Person[] = [
         name: 'Давид',
         surname: 'Янчик',
         country: 'Польша',
-        images: ["https://i.ibb.co/SXnmsGJd/a3766c9ea2fa78c79df41b514b536e645b7a9d9e3755f391857190.jpg"]
+        images: ["https://i.ibb.co/SXnmsGJd/a3766c9ea2fa78c79df41b514b536e645b7a9d9e3755f391857190.jpg", "https://i.ibb.co/Hf6FL9WJ/image.png"]
     },
     {
         name: 'Сауль',
@@ -648,5 +655,90 @@ export const persons: Person[] = [
         surname: 'Маазу',
         country: 'Нигер',
         images: ["https://i.ibb.co/x8d1c4bn/ouwo-moussa-maazou-pfc-cska-moskva.jpg"]
+    },
+    {
+        name: 'Вячеслав',
+        surname: 'Караваев',
+        country: 'Россия',
+        images: ["https://i.ibb.co/YFp0hZLG/vyacheslav-karavaev-esli-hochesh-igrat-nikakaya-praga-s-tolku-ne-sobet-53be99a41956117eadb4c1f294810.jpg", "https://i.ibb.co/XrshqSxf/Gj-PAgd-GS-0c.jpg"]
+    },
+    {
+        name: 'Любош',
+        surname: 'Калоуда',
+        country: 'Чехия',
+        images: ["https://i.ibb.co/9992GkVD/4e05ecf1d6c92a5305febfa323e80c165b6aef26111c0942849684.jpg", "https://i.ibb.co/Fqcdvqbd/1278406923580813406400.jpg"]
+    },
+    {
+        name: 'Звонимир',
+        surname: 'Шарлия',
+        country: 'Хорватия',
+        images: ["https://i.ibb.co/whTRqK99/sharlija-poproschalsja-s-cska-15793561561423090865.jpg", "https://i.ibb.co/yFJnSrRv/1042899626-0-0-3070-1930-1920x0-80-0-0-6d9e382015b2b110edb9d91604a4f1e1.jpg"]
+    },
+    {
+        name: 'Ким',
+        surname: 'Ин Сон',
+        country: 'Южная Корея',
+        images: ["https://i.ibb.co/h1B31FmH/16744889501962299605.jpg", "https://i.ibb.co/F4GCjrk6/1567696915-9d69d4729a46b8b9db79da8b4d4f4f78asdasdasd5944de66737cf8-16909211-650x433-9d69d4729a46b8b9.jpg∆"]
+    },
+    {
+        name: 'Такума',
+        surname: 'Нисимура',
+        country: 'Япония',
+        images: ["https://i.ibb.co/RkF3S2xq/8e08894af1f63800790c199a5151d37a5e27fc8812725066530141.jpg", "https://i.ibb.co/8gbnHFVd/1584894876-nisimura.jpg"]
+    },
+    {
+        name: 'Гусман',
+        surname: 'Гильерме',
+        country: 'Бразилия',
+        images: ["https://i.ibb.co/qLGf0NYZ/image.png",
+            "https://i.ibb.co/1YgcX4jB/image.png",
+            "https://i.ibb.co/xKzyVBzd/image.png"]
+    },
+    {
+        name: 'Наир',
+        surname: 'Тикнизян',
+        country: 'Армения',
+        images: ["https://i.ibb.co/9kB9DTtB/tikniz.jpg",
+            "https://i.ibb.co/wFztvfyY/image.png",
+            "https://i.ibb.co/zhqr9nC6/image.png",
+            "https://i.ibb.co/8gtPDQgm/image.png"]
+    },
+    {
+        name: 'Ласина',
+        surname: 'Траоре',
+        country: 'Кот-д\'Ивуар',
+        images: ["https://i.ibb.co/84Rnt3rT/image.png",
+            "https://i.ibb.co/Kzxn0YQL/image.png",
+            "https://i.ibb.co/PGW0QzX2/image.png",
+            "https://i.ibb.co/r25tG3Cx/image.png"]
+    },
+    {
+        name: 'Абель',
+        surname: 'Эрнандес',
+        country: 'Уругвай',
+        images: ["https://i.ibb.co/QFmJjKxk/image.png",
+            "https://i.ibb.co/0RY03cBG/image.png",
+            "https://i.ibb.co/hJMfNXNd/image.png"]
+    },
+    {
+        name: 'Равиль',
+        surname: 'Нетфуллин',
+        country: 'Россия',
+        images: ["https://i.ibb.co/M5cTpZ48/image.png", "https://i.ibb.co/60bX2Fzs/image.png", "https://i.ibb.co/yBSMZL3R/rue9110356aab.jpg"]
+    },
+    {
+        name: 'Эдуардо',
+        surname: 'Ратиньо',
+        country: 'Бразилия',
+        images: ["https://i.ibb.co/tP23gHwC/image.png",
+        "https://i.ibb.co/vCkmHrnh/rue12d8c3814e.jpg"]
+    },
+    {
+        name: 'Ника',
+        surname: 'Пилиев',
+        country: 'Россия',
+        images: ["https://i.ibb.co/Z1pgvwYp/image.png",
+        "https://i.ibb.co/20VKn4tt/image.png",
+        "https://i.ibb.co/ch9z4rDc/image.png"]
     },
 ]
