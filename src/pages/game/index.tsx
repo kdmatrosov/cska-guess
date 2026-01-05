@@ -89,6 +89,14 @@ export const Game: React.FC = () => {
                     <div className={classes.resultGuessed}>Угадано {guessed} из {Math.min(guessed + 1, total)}</div>
                     <div className={classes.resultTimer}>Время {timer}</div>
                 </div>
+                {guessed !== total && (
+                    <div className={classes.resultNotGuessed}>
+                        <img src={image} ref={imgRef} alt="" key={image} className={classes.image}/>
+                        <div className={classes.resultNotGuessedText}>
+                            {`${person?.name} ${person?.surname}`.trim()}
+                        </div>
+                    </div>
+                )}
                 <div onClick={onBackClick} className={classes.resultMain}>На главную</div>
             </div>
         )
