@@ -16,6 +16,9 @@ import piliev3 from './images/piliev3.jpg'
 import alves from './images/alves.jpg'
 import alves2 from './images/alves2.jpg'
 import alves3 from './images/alves3.jpg'
+import shkurin from './images/shkurin.jpg'
+import shkurin2 from './images/shkurin2.jpg'
+import shkurin3 from './images/shkurin3.jpg'
 import moises from './images/moises.jpg'
 import moises2 from './images/moises2.jpg'
 import moises3 from './images/moises3.jpg'
@@ -44,6 +47,7 @@ export const images = {
     traore: [traore, traore2, traore3, traore4],
     moises: [moises, moises2, moises3, moises4],
     netfullin: [netfullin, netfullin2, netfullin3],
+    shkurin: [shkurin, shkurin2, shkurin3],
     alves: [alves, alves2, alves3],
     piliev: [piliev, piliev2, piliev3],
     diveev: [diveev, diveev2, diveev3],

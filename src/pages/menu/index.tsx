@@ -17,7 +17,8 @@ export const Menu: React.FC = () => {
             </div>
             <div className={classes.menu}>
                 <div className={classes.menuItem} onClick={() => onMenuClick('game/one')}>
-                    ДО ПЕРВОЙ ОШИБКИ
+                    Кто этот армеец?
+                    <div className={classes.menuItemPostfix}>ДО ПЕРВОЙ ОШИБКИ</div>
                 </div>
                 <div className={classes.menuItem} onClick={() => onMenuClick('game/time')}>
                     {persons.length * 3} секунд

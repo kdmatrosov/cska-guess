@@ -178,9 +178,8 @@ export const persons: Person[] = [
         name: 'Илья',
         surname: 'Шкурин',
         country: 'Белоруссия',
-        images: ["https://i.ibb.co/dyxFJDF/image.png",
-        "https://i.ibb.co/Sw1HRKfD/image.png",
-        "https://i.ibb.co/Wvyzq9JT/image.png"]
+        images: [],
+        id: 'shkurin',
     },
     {
         name: 'Виллиан',
