@@ -167,7 +167,8 @@ export const persons: Person[] = [
         name: 'Тамерлан',
         surname: 'Мусаев',
         country: 'Россия',
-        images: ["https://cdn-m.sport24.ru/m/ca77/a531/9409/428c/a969/5ae5/6334/d646/1200_10000_max.webp", "https://mf.b37mrtl.ru/russian/images/2025.09/article/68d92d0aae5ac956cf1cb6ce.jpg"]
+        id: 'musaev',
+        images: []
     },
     {
         name: 'Артём',
@@ -193,7 +194,8 @@ export const persons: Person[] = [
         name: 'Алексей',
         surname: 'Березуцкий',
         country: 'Россия',
-        images: ["https://pfc-cska.com/uploads/content/x_bitrix/pfc-cska.com/upload/news/berezawolf.jpg", "https://cdn.bfm.ru/news/photopreviewextralarge/2021/07/19/aleksey.jpg"]
+        id: 'berezutskiya',
+        images: []
     },
     {
         name: 'Василий',
@@ -205,13 +207,15 @@ export const persons: Person[] = [
         name: 'Сергей',
         surname: 'Игнашевич',
         country: 'Россия',
-        images: ["https://s-cdn.sportbox.ru/images/styles/1920_1080/fp_fotos/62/0e/cc9047f282745092946abfa7591845a35afa8f3232da4734352386.jpg", "https://cdn5.vedomosti.ru/image/2023/7k/pp0rf/original-xau.jpg", "https://cdnn21.img.ria.ru/images/rsport/113966/51/1139665197_0:0:3154:1774_650x0_80_0_0_46b6ba2695a73377702b1e9b7d5f1bc4.jpg"]
+        id: 'ignashevich',
+        images: []
     },
     {
         name: 'Виктор',
         surname: 'Васин',
         country: 'Россия',
-        images: ["https://s-cdn.sportbox.ru/images/styles/1200-auto/fp_fotos/23/2b/95fec173a7e458d0b4c9e253918be1bb5fbcdf1c824f9595890429.jpg"]
+        id: 'vasin',
+        images: []
     },
     {
         name: 'Понтус',
@@ -237,7 +241,8 @@ export const persons: Person[] = [
         name: 'Алан',
         surname: 'Дзагоев',
         country: 'Россия',
-        images: ["https://region15.ru/wp-content/uploads/2022/05/BB29E9E6-CC08-4873-90D1-BF02478044D5.jpeg", "https://cdnn21.img.ria.ru/images/15601/47/156014748_0:0:0:0_650x0_80_0_0_37159fe035ef218daea77de7414869f6.jpg"]
+        id: 'dzagoev',
+        images: []
     },
     {
         name: 'Сейду',
@@ -255,7 +260,8 @@ export const persons: Person[] = [
         name: 'Дмитрий',
         surname: 'Ефремов',
         country: 'Россия',
-        images: ["https://news.store.rambler.ru/img/a6c1c9c52f9c7ed0e424497d4fd5d1af?img-format=auto&img-1-resize=height:400,fit:max&img-2-filter=sharpen"]
+        id: 'efremov',
+        images: []
     },
     {
         name: 'Георги',
@@ -267,7 +273,8 @@ export const persons: Person[] = [
         name: 'Игорь',
         surname: 'Яновский',
         country: 'Россия',
-        images: ["https://ss.sport-express.ru/userfiles/materials/43/436640/large.jpg"]
+        id: 'yanovskiy',
+        images: []
     },
     {
         name: 'Секу',
@@ -315,13 +322,15 @@ export const persons: Person[] = [
         name: 'Кирилл',
         surname: 'Панченко',
         country: 'Россия',
-        images: ["https://rg.ru/uploads/images/127/22/62/Kirill_Panchenko._Anton_Denisov,_RIA.jpg"]
+        id: 'panchenko',
+        images: []
     },
     {
         name: 'Карлос',
         surname: 'Страндберг',
         country: 'Швеция',
-        images: ["https://photobooth.cdn.sports.ru/preset/post/c/78/8cba6332a41bf9a23cb289178c0e7.jpeg?w=730&f=webp&s=2x"]
+        id: 'strandberg',
+        images: []
     },
     {
         name: 'Сергей',
@@ -454,7 +463,8 @@ export const persons: Person[] = [
         name: 'Вагнер',
         surname: 'Лав',
         country: 'Бразилия',
-        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/27/be/3d1eb2ae9c6f92913cb29b22a10563655edd426fa8145282009720.jpg", "https://img.gazeta.ru/files3/167/13115167/RIAN_1471301.HR-pic905-895x505-98055.jpg"]
+        id: 'love',
+        images: []
     },
     {
         name: 'Ролан',

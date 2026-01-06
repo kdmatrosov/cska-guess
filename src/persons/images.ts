@@ -11,6 +11,12 @@ import torop3 from './images/torop3.jpg'
 import diveev from './images/diveev.jpg'
 import diveev2 from './images/diveev2.jpg'
 import diveev3 from './images/diveev3.jpg'
+import love from './images/love.jpg'
+import love2 from './images/love2.jpg'
+import love3 from './images/love3.jpg'
+import efremov from './images/efremov.jpg'
+import efremov2 from './images/efremov2.jpg'
+import efremov3 from './images/efremov3.jpg'
 import netfullin from './images/netfullin.jpg'
 import netfullin2 from './images/netfullin2.jpg'
 import netfullin3 from './images/netfullin3.jpg'
@@ -56,9 +62,15 @@ import verde3 from './images/verde3.jpg'
 import kislyak from './images/kislyak.jpg'
 import kislyak2 from './images/kislyak2.jpg'
 import kislyak3 from './images/kislyak3.jpg'
+import ignashevich from './images/ignashevich.jpg'
+import ignashevich2 from './images/ignashevich2.jpg'
+import ignashevich3 from './images/ignashevich3.jpg'
 import ruis from './images/ruis.jpg'
 import ruis2 from './images/ruis2.jpg'
 import ruis3 from './images/ruis3.jpg'
+import panchenko from './images/panchenko.jpg'
+import panchenko2 from './images/panchenko2.jpg'
+import panchenko3 from './images/panchenko3.jpg'
 import popolitov from './images/popolitov.jpg'
 import popolitov2 from './images/popolitov2.jpg'
 import popolitov3 from './images/popolitov3.jpg'
@@ -77,6 +89,10 @@ import tiknizyan from './images/tiknizyan.jpg'
 import tiknizyan2 from './images/tiknizyan2.jpg'
 import tiknizyan3 from './images/tiknizyan3.jpg'
 import tiknizyan4 from './images/tiknizyan4.jpg'
+import vasin from './images/vasin.jpg'
+import vasin2 from './images/vasin2.jpg'
+import vasin3 from './images/vasin3.jpg'
+import vasin4 from './images/vasin4.jpg'
 import zhamaletdinov from './images/zhamaletdinov.jpg'
 import zhamaletdinov2 from './images/zhamaletdinov2.jpg'
 import zhamaletdinov3 from './images/zhamaletdinov3.jpg'
@@ -131,17 +147,30 @@ import tosic from './images/tosic.jpg'
 import tosic2 from './images/tosic2.jpg'
 import akhmetov from './images/akhmetov.jpg'
 import akhmetov2 from './images/akhmetov2.jpg'
+import yanovskiy from './images/yanovskiy.jpg'
+import yanovskiy2 from './images/yanovskiy2.jpg'
+import strandberg from './images/strandberg.jpg'
+import strandberg2 from './images/strandberg2.jpg'
+import musaev from './images/musaev.jpg'
+import musaev2 from './images/musaev2.jpg'
+import berezutskiya from './images/berezutskiya.jpg'
+import berezutskiya2 from './images/berezutskiya2.jpg'
+import dzagoev from './images/dzagoev.jpg'
+import dzagoev2 from './images/dzagoev2.jpg'
 
 export const images = {
     akinfeev: [akinfeev, akinfeev2, akinfeev3],
     zhamaletdinov: [zhamaletdinov, zhamaletdinov2, zhamaletdinov3, zhamaletdinov4],
+    vasin: [vasin, vasin2, vasin3, vasin4],
     tiknizyan: [tiknizyan, tiknizyan2, tiknizyan3, tiknizyan4],
     traore: [traore, traore2, traore3, traore4],
     moises: [moises, moises2, moises3, moises4],
     netfullin: [netfullin, netfullin2, netfullin3],
     zhemaletdinov: [zhemaletdinov, zhemaletdinov2, zhemaletdinov3],
     popolitov: [popolitov, popolitov2, popolitov3],
+    panchenko: [panchenko, panchenko2, panchenko3],
     ruis: [ruis, ruis2, ruis3],
+    ignashevich: [ignashevich, ignashevich2, ignashevich3],
     kislyak: [kislyak, kislyak2, kislyak3],
     verde: [verde, verde2, verde3],
     golovin: [golovin, golovin2, golovin3],
@@ -156,9 +185,16 @@ export const images = {
     shkurin: [shkurin, shkurin2, shkurin3],
     alves: [alves, alves2, alves3],
     piliev: [piliev, piliev2, piliev3],
+    efremov: [efremov, efremov2, efremov3],
+    love: [love, love2, love3],
     diveev: [diveev, diveev2, diveev3],
     torop: [torop, torop2, torop3],
     krasic: [krasic, krasic2, krasic3, krasic4],
+    dzagoev: [dzagoev, dzagoev2],
+    berezutskiya: [berezutskiya, berezutskiya2],
+    musaev: [musaev, musaev2],
+    strandberg: [strandberg, strandberg2],
+    yanovskiy: [yanovskiy, yanovskiy2],
     akhmetov: [akhmetov, akhmetov2],
     tosic: [tosic, tosic2],
     wernbloom: [wernbloom, wernbloom2],
