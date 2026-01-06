@@ -159,6 +159,12 @@ import dzagoev from './images/dzagoev.jpg'
 import dzagoev2 from './images/dzagoev2.jpg'
 import bistrovic from './images/bistrovic.jpg'
 import bistrovic2 from './images/bistrovic2.jpg'
+import yazici from './images/yazici.jpg'
+import yazici2 from './images/yazici2.jpg'
+import gbamin from './images/gbamin.jpg'
+import gbamin2 from './images/gbamin2.jpg'
+import caner from './images/caner.jpg'
+import caner2 from './images/caner2.jpg'
 
 export const images = {
     akinfeev: [akinfeev, akinfeev2, akinfeev3],
@@ -192,6 +198,9 @@ export const images = {
     diveev: [diveev, diveev2, diveev3],
     torop: [torop, torop2, torop3],
     krasic: [krasic, krasic2, krasic3, krasic4],
+    yazici: [yazici, yazici2],
+    caner: [caner, caner2],
+    gbamin: [gbamin, gbamin2],
     bistrovic: [bistrovic, bistrovic2],
     dzagoev: [dzagoev, dzagoev2],
     berezutskiya: [berezutskiya, berezutskiya2],

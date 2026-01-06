@@ -787,6 +787,27 @@ export const persons: Person[] = [
         id: 'piliev',
         images: []
     },
+    {
+        name: 'Жан-Филипп',
+        surname: 'Гбамен',
+        country: 'Кот-д\'Ивуар',
+        id: 'gbamin',
+        images: []
+    },
+    {
+        name: 'Юсуф',
+        surname: 'Языджи',
+        country: 'Турция',
+        id: 'yazici',
+        images: []
+    },
+    {
+        name: 'Джанер',
+        surname: 'Эркин',
+        country: 'Турция',
+        id: 'caner',
+        images: []
+    },
 ].map((person) => {
     if (!person.id) {
         return person as Person;
