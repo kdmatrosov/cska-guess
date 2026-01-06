@@ -70,13 +70,15 @@ export const persons: Person[] = [
         name: 'Рамиро',
         surname: 'Ди Лусиано',
         country: 'Аргентина',
-        images: ["https://i.ibb.co/7d4Mkk1K/luciaon.webp"]
+        id: 'luciano',
+        images: []
     },
     {
         name: 'Михаил',
         surname: 'Рядно',
         country: 'Россия',
-        images: ["https://i.ibb.co/kpqZZzS/ryadno.jpg"]
+        images: [],
+        id: 'ryadno'
     },
     {
         name: 'Артём',
@@ -89,37 +91,36 @@ export const persons: Person[] = [
         name: 'Родриго',
         surname: 'Вильягра',
         country: 'Аргентина',
-        images: ["https://i.ibb.co/kVTp73kb/720x405.jpg", "https://i.ibb.co/fz4gB1bv/67a8166-2-ae9c1606ca183cb2b9cea6ea149969e0.jpg"]
+        id: 'villagra',
+        images: []
     },
     {
         name: 'Глеб',
         surname: 'Пополитов',
         country: 'Россия',
-        images: ["https://i.ibb.co/RG3CcnMH/0a8ad0c9c64e03f0081b10728ff8c3b168d98a4277dd4402194630.jpg",
-            "https://i.ibb.co/FbpXJCcq/ore1125-3840.jpg",
-            "https://i.ibb.co/5xSs1LNk/4-Xum-M8-Psnt-E.jpg"]
+        id: 'popolitov',
+        images: []
     },
     {
         name: 'Даниэль',
         surname: 'Руис',
         country: 'Колумбия',
-        images: ["https://i.ibb.co/99qR7SGp/Daniel-Ruis-pfc-CSKA-b001dbe375.webp", "https://i.ibb.co/3Vgtp5Q/1758364237-da75feb2d82c58c04eb07895b36607702d77d073.jpg", "https://i.ibb.co/23WDD1xp/78b0581a755c8c48cc6b2780121cb70468ab4c1c03629742713733.jpg"]
+        id: 'ruis',
+        images: []
     },
     {
         name: 'Матвей',
         surname: 'Кисляк',
         country: 'Россия',
-        images: ["https://i.ibb.co/8LyyGVPx/fb58a6748b6b82dd1f0feb69cd7b105c68e2a39f0dd97318890678.jpg",
-        "https://i.ibb.co/9mym1PHC/Kislyak-RPL-0.jpg",
-        "https://i.ibb.co/wZ5xFXY8/image.png"]
+        id: 'kislyak',
+        images: []
     },
     {
         name: 'Лионель',
         surname: 'Верде',
         country: 'Аргентина',
-        images: ["https://i.ibb.co/9x1PPnw/image.png",
-        "https://i.ibb.co/9kTZNCbc/image.png",
-        "https://i.ibb.co/chsfdLbC/image.png"]
+        id: 'verde',
+        images: []
     },
     {
         name: 'Матеус',
@@ -132,8 +133,8 @@ export const persons: Person[] = [
         name: 'Матия',
         surname: 'Попович',
         country: 'Сербия',
-        images: ["https://i.ibb.co/PZXx3Lbx/image.png",
-        "https://i.ibb.co/hRwVJkwp/image.png"]
+        id: 'popovic',
+        images: []
     },
     {
         name: 'Иван',
@@ -160,7 +161,7 @@ export const persons: Person[] = [
         name: 'Кирилл',
         surname: 'Глебов',
         country: 'Россия',
-        images: ["https://i.ibb.co/QvfLN420/glebov.jpg", "https://media-1obl-ru.storage.yandexcloud.net/resize_cache/1199494/83132dad08c79bfbcc1d891fdcdbb658/iblock/36f/36f131760974dd457eed2a7c67db2fbd/2996f60c8c57069f8466aca2b721f1cf.jpeg"]
+        images: []
     },
     {
         name: 'Тамерлан',
@@ -172,8 +173,8 @@ export const persons: Person[] = [
         name: 'Артём',
         surname: 'Шуманский',
         country: 'Белоруссия',
-        images: ["https://i.ibb.co/Qxv1S9v/image.png",
-        "https://i.ibb.co/xn7gpmP/image.png"]
+        id: 'shumanskiy',
+        images: []
     },
     {
         name: 'Илья',
@@ -216,7 +217,8 @@ export const persons: Person[] = [
         name: 'Понтус',
         surname: 'Вернблум',
         country: 'Швеция',
-        images: ["https://s-cdn.sportbox.ru/images/styles/1920_1080/fp_fotos/1f/1b/496ecb499e6fd210cb231caaf4ab01575afc2f14ab847973734822.jpg", "https://i.ibb.co/X17vyYW/fd721f82387280e780bc61b39d4fb71e5a015eca1e13e661232301.jpg"]
+        id: 'wernbloom',
+        images: []
     },
     {
         name: 'Расмум',
@@ -228,7 +230,8 @@ export const persons: Person[] = [
         name: 'Александр',
         surname: 'Головин',
         country: 'Россия',
-        images: ["https://i.ibb.co/TM50RXbD/image.png", "https://i.ibb.co/YHWL74w/image.png", "https://i.ibb.co/HpgSvT3Z/image.png",]
+        id: 'golovin',
+        images: []
     },
     {
         name: 'Алан',
@@ -330,13 +333,15 @@ export const persons: Person[] = [
         name: 'Зоран',
         surname: 'Тошич',
         country: 'Сербия',
-        images: ["https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/e5/12/545a665dad32c.jpg", "https://i.ibb.co/35qcz141/arut18-png.jpg"]
+        id: 'tosic',
+        images: []
     },
     {
         name: 'Милош',
         surname: 'Красич',
         country: 'Сербия',
-        images: ["https://mf.b37mrtl.ru/russian/images/2020.09/article/5f50a216ae5ac96605574d46.jpg", "https://i.ibb.co/gZPFXkrs/image.png"]
+        id: 'krasic',
+        images: []
     },
     {
         name: 'Марио',
@@ -360,7 +365,8 @@ export const persons: Person[] = [
         name: 'Ильзат',
         surname: 'Ахметов',
         country: 'Россия',
-        images: ["https://i.ibb.co/5xT05YBG/ilzat-ahmetov-15441357851883892943.jpg", "https://i.ibb.co/xq0TXd63/fd721f82387280e780bc61b39d4fb71e5d9074dea2fd0839813967.jpg"]
+        id: 'akhmetov',
+        images: []
     },
     {
         name: 'Родриго',
@@ -397,18 +403,15 @@ export const persons: Person[] = [
         name: 'Рифат',
         surname: 'Жемалетдинов',
         country: 'Россия',
-        images: ["https://i.ibb.co/sztQFch/igrok-cska-zhemaletdinov-vse-moi-avtoshtrafy-za-skorost-hochetsya-ezdit-bystree-1739784001222072390.jpg",
-            "https://i.ibb.co/v65rFFHX/image.png",
-            "https://i.ibb.co/0VB2Qp42/image.png"]
+        id: 'zhemaletdinov',
+        images: []
     },
     {
         name: 'Тимур',
         surname: 'Жамалетдинов',
         country: 'Россия',
-        images: ["https://i.ibb.co/ycYp53HN/Ef-PP8-Lf-WAAEn-XJP.jpg",
-            "https://i.ibb.co/YB417c8X/fd721f82387280e780bc61b39d4fb71e5ba343af35d3d599940656.jpg",
-            "https://i.ibb.co/KpLB73nt/image.png",
-            "https://i.ibb.co/rNmfVKd/image.png"]
+        id: 'zhamaletdinov',
+        images: []
     },
     {
         name: 'Константин',
@@ -469,7 +472,8 @@ export const persons: Person[] = [
         name: 'Павел',
         surname: 'Мамаев',
         country: 'Россия',
-        images: ["https://i.ibb.co/RGw83FjF/kak-pavel-mamaev-chudil-v-cska-15836607061268918853.jpg"]
+        id: 'mamaev',
+        images: []
     },
     {
         name: 'Чиди',
@@ -487,7 +491,8 @@ export const persons: Person[] = [
         name: 'Денис',
         surname: 'Евсиков',
         country: 'Россия',
-        images: ["https://i.ibb.co/1GywZ3ZS/TASS-69170-pic4-zoom-1500x1500-59954.jpg"]
+        id: 'evsikov',
+        images: []
     },
     {
         name: 'Денис',

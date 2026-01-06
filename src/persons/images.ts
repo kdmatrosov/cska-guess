@@ -1,6 +1,10 @@
 import akinfeev from './images/akinfeev.jpg'
 import akinfeev2 from './images/akinfeev2.jpg'
 import akinfeev3 from './images/akinfeev3.jpg'
+import krasic from './images/krasic.jpg'
+import krasic2 from './images/krasic2.jpg'
+import krasic3 from './images/krasic3.jpg'
+import krasic4 from './images/krasic4.jpg'
 import torop from './images/torop.jpg'
 import torop2 from './images/torop2.jpg'
 import torop3 from './images/torop3.jpg'
@@ -28,6 +32,9 @@ import abel3 from './images/abel3.jpg'
 import oblyakov from './images/oblyakov.jpg'
 import oblyakov2 from './images/oblyakov2.jpg'
 import oblyakov3 from './images/oblyakov3.jpg'
+import mamaev from './images/mamaev.jpg'
+import mamaev2 from './images/mamaev2.jpg'
+import mamaev3 from './images/mamaev3.jpg'
 import mansa from './images/mansa.jpg'
 import mansa2 from './images/mansa2.jpg'
 import mansa3 from './images/mansa3.jpg'
@@ -37,6 +44,27 @@ import kuchaev3 from './images/kuchaev3.jpg'
 import bijol from './images/bijol.jpg'
 import bijol2 from './images/bijol2.jpg'
 import bijol3 from './images/bijol3.jpg'
+import ryadno from './images/ryadno.jpg'
+import ryadno2 from './images/ryadno2.jpg'
+import ryadno3 from './images/ryadno3.jpg'
+import golovin from './images/golovin.jpg'
+import golovin2 from './images/golovin2.jpg'
+import golovin3 from './images/golovin3.jpg'
+import verde from './images/verde.jpg'
+import verde2 from './images/verde2.jpg'
+import verde3 from './images/verde3.jpg'
+import kislyak from './images/kislyak.jpg'
+import kislyak2 from './images/kislyak2.jpg'
+import kislyak3 from './images/kislyak3.jpg'
+import ruis from './images/ruis.jpg'
+import ruis2 from './images/ruis2.jpg'
+import ruis3 from './images/ruis3.jpg'
+import popolitov from './images/popolitov.jpg'
+import popolitov2 from './images/popolitov2.jpg'
+import popolitov3 from './images/popolitov3.jpg'
+import zhemaletdinov from './images/zhemaletdinov.jpg'
+import zhemaletdinov2 from './images/zhemaletdinov2.jpg'
+import zhemaletdinov3 from './images/zhemaletdinov3.jpg'
 import moises from './images/moises.jpg'
 import moises2 from './images/moises2.jpg'
 import moises3 from './images/moises3.jpg'
@@ -49,11 +77,16 @@ import tiknizyan from './images/tiknizyan.jpg'
 import tiknizyan2 from './images/tiknizyan2.jpg'
 import tiknizyan3 from './images/tiknizyan3.jpg'
 import tiknizyan4 from './images/tiknizyan4.jpg'
+import zhamaletdinov from './images/zhamaletdinov.jpg'
+import zhamaletdinov2 from './images/zhamaletdinov2.jpg'
+import zhamaletdinov3 from './images/zhamaletdinov3.jpg'
+import zhamaletdinov4 from './images/zhamaletdinov4.jpg'
 import gajic from './images/gajic.jpg'
 import gajic2 from './images/gajic2.jpg'
 import krugovoi from './images/krugovoi.jpg'
 import krugovoi2 from './images/krugovoi2.jpg'
 import victor from './images/victor.jpg'
+import evsikov from './images/evsikov.jpg'
 import agapov from './images/agapov.jpg'
 import maazou from './images/maazou.jpg'
 import abdulkadyrov from './images/abdulkadyrov.jpg'
@@ -78,20 +111,45 @@ import karavaev from './images/karavaev.jpg'
 import karavaev2 from './images/karavaev2.jpg'
 import saul from './images/saul.jpg'
 import saul2 from './images/saul2.jpg'
+import luciano from './images/luciano.jpg'
+import luciano2 from './images/luciano2.jpg'
 import fuchs from './images/fuchs.jpg'
 import fuchs2 from './images/fuchs2.jpg'
 import janczyk from './images/janczyk.jpg'
 import janczyk2 from './images/janczyk2.jpg'
+import villagra from './images/villagra.jpg'
+import villagra2 from './images/villagra2.jpg'
+import popovic from './images/popovic.jpg'
+import popovic2 from './images/popovic2.jpg'
+import glebov from './images/glebov.jpg'
+import glebov2 from './images/glebov2.jpg'
+import shumanskiy from './images/shumanskiy.jpg'
+import shumanskiy2 from './images/shumanskiy2.jpg'
+import wernbloom from './images/wernbloom.jpg'
+import wernbloom2 from './images/wernbloom2.jpg'
+import tosic from './images/tosic.jpg'
+import tosic2 from './images/tosic2.jpg'
+import akhmetov from './images/akhmetov.jpg'
+import akhmetov2 from './images/akhmetov2.jpg'
 
 export const images = {
     akinfeev: [akinfeev, akinfeev2, akinfeev3],
+    zhamaletdinov: [zhamaletdinov, zhamaletdinov2, zhamaletdinov3, zhamaletdinov4],
     tiknizyan: [tiknizyan, tiknizyan2, tiknizyan3, tiknizyan4],
     traore: [traore, traore2, traore3, traore4],
     moises: [moises, moises2, moises3, moises4],
     netfullin: [netfullin, netfullin2, netfullin3],
+    zhemaletdinov: [zhemaletdinov, zhemaletdinov2, zhemaletdinov3],
+    popolitov: [popolitov, popolitov2, popolitov3],
+    ruis: [ruis, ruis2, ruis3],
+    kislyak: [kislyak, kislyak2, kislyak3],
+    verde: [verde, verde2, verde3],
+    golovin: [golovin, golovin2, golovin3],
+    ryadno: [ryadno, ryadno2, ryadno3],
     bijol: [bijol, bijol2, bijol3],
     kuchaev: [kuchaev, kuchaev2, kuchaev3],
     mansa: [mansa, mansa2, mansa3],
+    mamaev: [mamaev, mamaev2, mamaev3],
     oblyakov: [oblyakov, oblyakov2, oblyakov3],
     abel: [abel, abel2, abel3],
     gusman: [gusman, gusman2, gusman3],
@@ -100,8 +158,17 @@ export const images = {
     piliev: [piliev, piliev2, piliev3],
     diveev: [diveev, diveev2, diveev3],
     torop: [torop, torop2, torop3],
+    krasic: [krasic, krasic2, krasic3, krasic4],
+    akhmetov: [akhmetov, akhmetov2],
+    tosic: [tosic, tosic2],
+    wernbloom: [wernbloom, wernbloom2],
+    shumanskiy: [shumanskiy, shumanskiy2],
+    glebov: [glebov, glebov2],
+    popovic: [popovic, popovic2],
+    villagra: [villagra, villagra2],
     janczyk: [janczyk, janczyk2],
     fuchs: [fuchs, fuchs2],
+    luciano: [luciano, luciano2],
     saul: [saul, saul2],
     kalouda: [kalouda, kalouda2],
     sharlija: [sharlija, sharlija2],
@@ -117,5 +184,6 @@ export const images = {
     gajic: [gajic, gajic2],
     maazou: [maazou],
     agapov: [agapov],
+    evsikov: [evsikov],
     victor: [victor],
 }
