@@ -810,6 +810,9 @@ export const persons: Person[] = [
     },
 ].map((person) => {
     if (!person.id) {
+        if (person.images.length === 0) {
+            throw new Error(`У ${person.name} ${person.surname} нет ни одной картинки и не задан id`);
+        }
         return person as Person;
     }
     // @ts-ignore игнорируем ошибку ключа
