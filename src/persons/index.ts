@@ -161,6 +161,7 @@ export const persons: Person[] = [
         name: 'Кирилл',
         surname: 'Глебов',
         country: 'Россия',
+        id: 'glebov',
         images: []
     },
     {
