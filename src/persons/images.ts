@@ -47,6 +47,9 @@ import mansa3 from './images/mansa3.jpg'
 import kuchaev from './images/kuchaev.jpg'
 import kuchaev2 from './images/kuchaev2.jpg'
 import kuchaev3 from './images/kuchaev3.jpg'
+import berezutskiyv from './images/berezutskiyv.jpg'
+import berezutskiyv2 from './images/berezutskiyv2.jpg'
+import berezutskiyv3 from './images/berezutskiyv3.jpg'
 import bijol from './images/bijol.jpg'
 import bijol2 from './images/bijol2.jpg'
 import bijol3 from './images/bijol3.jpg'
@@ -155,6 +158,8 @@ import musaev from './images/musaev.jpg'
 import musaev2 from './images/musaev2.jpg'
 import berezutskiya from './images/berezutskiya.jpg'
 import berezutskiya2 from './images/berezutskiya2.jpg'
+import berezutskiya3 from './images/berezutskiya3.jpg'
+import berezutskiya4 from './images/berezutskiya4.jpg'
 import dzagoev from './images/dzagoev.jpg'
 import dzagoev2 from './images/dzagoev2.jpg'
 import bistrovic from './images/bistrovic.jpg'
@@ -184,6 +189,7 @@ export const images = {
     golovin: [golovin, golovin2, golovin3],
     ryadno: [ryadno, ryadno2, ryadno3],
     bijol: [bijol, bijol2, bijol3],
+    berezutskiyv: [berezutskiyv, berezutskiyv2, berezutskiyv3],
     kuchaev: [kuchaev, kuchaev2, kuchaev3],
     mansa: [mansa, mansa2, mansa3],
     mamaev: [mamaev, mamaev2, mamaev3],
@@ -203,7 +209,7 @@ export const images = {
     gbamin: [gbamin, gbamin2],
     bistrovic: [bistrovic, bistrovic2],
     dzagoev: [dzagoev, dzagoev2],
-    berezutskiya: [berezutskiya, berezutskiya2],
+    berezutskiya: [berezutskiya, berezutskiya2, berezutskiya3, berezutskiya4],
     musaev: [musaev, musaev2],
     strandberg: [strandberg, strandberg2],
     yanovskiy: [yanovskiy, yanovskiy2],

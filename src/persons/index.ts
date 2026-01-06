@@ -202,7 +202,8 @@ export const persons: Person[] = [
         name: 'Василий',
         surname: 'Березуцкий',
         country: 'Россия',
-        images: ["https://pfc-cska.com/uploads/content/x_bitrix/pfc-cska.com/upload/medialibrary/62b/dsc_0116.jpg"]
+        id: 'berezutskiyv',
+        images: []
     },
     {
         name: 'Сергей',
@@ -817,5 +818,8 @@ export const persons: Person[] = [
     }
     // @ts-ignore игнорируем ошибку ключа
     const imgs: string[] = images[person.id] ?? [];
+    if (imgs.length === 0) {
+        throw new Error(`У ${person.name} ${person.surname} нет ни одной картинки и задан id`);
+    }
     return {...person, images: imgs} as Person;
 })

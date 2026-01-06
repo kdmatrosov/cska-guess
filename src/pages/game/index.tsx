@@ -150,7 +150,7 @@ export const Game: React.FC = () => {
                     <div className={classes.persons}>
                         {countries.map((country) => (
                             <div key={country} className={cn(classes.person, {
-                                [classes.short]: country.length > 10 || country === 'Финляндия'
+                                [classes.short]: country.length > 8
                             })} onClick={() => onChoiceCountry(country)}>
                                 <div>{getFlag(country)} {country}</div>
                             </div>
