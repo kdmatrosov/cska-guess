@@ -31,6 +31,12 @@ import oblyakov3 from './images/oblyakov3.jpg'
 import mansa from './images/mansa.jpg'
 import mansa2 from './images/mansa2.jpg'
 import mansa3 from './images/mansa3.jpg'
+import kuchaev from './images/kuchaev.jpg'
+import kuchaev2 from './images/kuchaev2.jpg'
+import kuchaev3 from './images/kuchaev3.jpg'
+import bijol from './images/bijol.jpg'
+import bijol2 from './images/bijol2.jpg'
+import bijol3 from './images/bijol3.jpg'
 import moises from './images/moises.jpg'
 import moises2 from './images/moises2.jpg'
 import moises3 from './images/moises3.jpg'
@@ -54,6 +60,12 @@ import lukin from './images/lukin.jpg'
 import lukin2 from './images/lukin2.jpg'
 import carmo from './images/carmo.jpg'
 import carmo2 from './images/carmo2.jpg'
+import bandikyan from './images/bandikyan.jpg'
+import bandikyan2 from './images/bandikyan2.jpg'
+import ratinho from './images/ratinho.jpg'
+import ratinho2 from './images/ratinho2.jpg'
+import nishimura from './images/nishimura.jpg'
+import nishimura2 from './images/nishimura2.jpg'
 
 export const images = {
     akinfeev: [akinfeev, akinfeev2, akinfeev3],
@@ -61,6 +73,8 @@ export const images = {
     traore: [traore, traore2, traore3, traore4],
     moises: [moises, moises2, moises3, moises4],
     netfullin: [netfullin, netfullin2, netfullin3],
+    bijol: [bijol, bijol2, bijol3],
+    kuchaev: [kuchaev, kuchaev2, kuchaev3],
     mansa: [mansa, mansa2, mansa3],
     oblyakov: [oblyakov, oblyakov2, oblyakov3],
     abel: [abel, abel2, abel3],
@@ -70,6 +84,9 @@ export const images = {
     piliev: [piliev, piliev2, piliev3],
     diveev: [diveev, diveev2, diveev3],
     torop: [torop, torop2, torop3],
+    nishimura: [nishimura, nishimura2],
+    ratinho: [ratinho, ratinho2],
+    bandikyan: [bandikyan, bandikyan2],
     carmo: [carmo, carmo2],
     lukin: [lukin, lukin2],
     abdulkadyrov: [abdulkadyrov, abdulkadyrov2],

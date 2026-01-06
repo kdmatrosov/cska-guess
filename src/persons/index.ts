@@ -82,7 +82,8 @@ export const persons: Person[] = [
         name: 'Артём',
         surname: 'Бандикян',
         country: 'Армения',
-        images: ["https://i.ibb.co/1fBk6p0m/npa6530-1-1.jpg", "https://i.ibb.co/NfRtBcY/a-HR0c-HM6-Ly9zd-G9y-YWdl-Lnlhbm-Rle-GNsb3-Vk-Lm5ld-C9z-My1t-ZXRhcm-F0a-W5ncy1zd-G9y-YWdl-L2lt-YWdlcy8.webp"]
+        id: 'bandikyan',
+        images: []
     },
     {
         name: 'Родриго',
@@ -371,7 +372,8 @@ export const persons: Person[] = [
         name: 'Яка',
         surname: 'Бийол',
         country: 'Словения',
-        images: ["https://i.ibb.co/Q7tD0QwT/b1ee7937e61788288c91b9abfb77df5b5f5b848b1d1c3216256538.jpg", "https://i.ibb.co/gKPcB9z/bijol-zajavil-chto-nedovolen-svoim-polozheniem-v-csk-1585902328631125407.jpg", "https://i.ibb.co/3y9BfVbp/i-TJv-NZdg-X2.jpg"]
+        id: 'bijol',
+        images: []
     },
     {
         name: 'Кристиан',
@@ -412,9 +414,8 @@ export const persons: Person[] = [
         name: 'Константин',
         surname: 'Кучаев',
         country: 'Россия',
-        images: ["https://i.ibb.co/spnGBbHp/image.png",
-            "https://i.ibb.co/Lz1fMbz6/image.png",
-            "https://i.ibb.co/hx35QrzR/image.png"]
+        id: 'kuchaev',
+        images: []
     },
     {
         name: 'Фёдор',
@@ -708,7 +709,8 @@ export const persons: Person[] = [
         name: 'Такума',
         surname: 'Нисимура',
         country: 'Япония',
-        images: ["https://i.ibb.co/RkF3S2xq/8e08894af1f63800790c199a5151d37a5e27fc8812725066530141.jpg", "https://i.ibb.co/8gbnHFVd/1584894876-nisimura.jpg"]
+        id: 'nishimura',
+        images: []
     },
     {
         name: 'Гусман',
@@ -749,8 +751,8 @@ export const persons: Person[] = [
         name: 'Эдуардо',
         surname: 'Ратиньо',
         country: 'Бразилия',
-        images: ["https://i.ibb.co/tP23gHwC/image.png",
-            "https://i.ibb.co/vCkmHrnh/rue12d8c3814e.jpg"]
+        id: 'ratinho',
+        images: []
     },
     {
         name: 'Ника',
