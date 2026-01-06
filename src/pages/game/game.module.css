@@ -59,6 +59,7 @@
 
 .person {
     display: flex;
+    height: 90px;
     flex-direction: column;
     text-align: center;
     background-color: var(--base-white);

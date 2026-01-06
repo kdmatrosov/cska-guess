@@ -6,7 +6,7 @@ import {persons} from "../../persons";
 
 export const Menu: React.FC = () => {
     let navigate = useNavigate();
-    const onMenuClick = (route: 'game/one' | 'game/time') => {
+    const onMenuClick = (route: 'game/one' | 'game/time' | 'game/countries') => {
         navigate("/" + route);
     }
     return (
@@ -22,6 +22,10 @@ export const Menu: React.FC = () => {
                 </div>
                 <div className={classes.menuItem} onClick={() => onMenuClick('game/time')}>
                     {persons.length * 3} секунд
+                    <div className={classes.menuItemPostfix}>ДО ПЕРВОЙ ОШИБКИ</div>
+                </div>
+                <div className={classes.menuItem} onClick={() => onMenuClick('game/countries')}>
+                    Из какой страны?
                     <div className={classes.menuItemPostfix}>ДО ПЕРВОЙ ОШИБКИ</div>
                 </div>
             </div>

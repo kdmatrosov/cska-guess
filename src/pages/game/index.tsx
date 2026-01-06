@@ -6,13 +6,13 @@ import {Randomizer} from "./randomizer.ts";
 import {persons} from "../../persons";
 import {shuffleArray, secondsToMmSs} from "../../utils";
 import cn from 'classnames';
-import type {Person} from "../../types";
+import type {Country, Person} from "../../types";
 
 const total = persons.length;
 
 export const Game: React.FC = () => {
     let navigate = useNavigate();
-    const params = useParams<{ mode: 'one' | 'time' }>();
+    const params = useParams<{ mode: 'one' | 'time' | 'countries' }>();
     const [rand, setRand] = useState(() => new Randomizer(persons));
     const [finished, setFinished] = useState(false);
     const [loadingImage, setLoadingImage] = useState(false);
@@ -78,6 +78,8 @@ export const Game: React.FC = () => {
         return result;
     }, [person])
 
+    const countries = React.useMemo(() => person ? rand.getExtraCountries(person.country) : [], [person, rand])
+
     const onBackClick = () => {
         navigate("/");
     }
@@ -99,18 +101,31 @@ export const Game: React.FC = () => {
             setError('mistake')
         }
     };
+    const onChoiceCountry = (chosen: Country) => {
+        setStep((prevState) => prevState + 1);
+        if (step === total) {
+            finish()
+        }
+        if (chosen === person!.country) {
+            setGuessed((prevState) => prevState + 1);
+            setPerson(rand.getPerson());
+        } else {
+            finish();
+            setError('mistake')
+        }
+    };
     if (finished) {
         return (
             <div className={classes.wrapper}>
                 <div className={classes.result}>
                     <div className={classes.resultGuessed}>Угадано {guessed} из {Math.min(guessed + 1, total)}</div>
-                    <div className={classes.resultTimer}>Время {seconds === 0 ? 'истекло' : timer}</div>
+                    <div className={classes.resultTimer}>Время {seconds === 0 && params.mode === 'time' ? 'истекло' : timer}</div>
                 </div>
                 {error !== undefined && (
                     <div className={classes.resultNotGuessed}>
                         <img src={image} ref={imgRef} alt="" key={image} className={classes.image}/>
                         <div className={classes.resultNotGuessedText}>
-                            {`${person?.name} ${person?.surname}`.trim()}
+                            {`${person?.name} ${person?.surname}${params.mode === 'countries' ? ' – ' + person?.country : ''}`.trim()}
                         </div>
                     </div>
                 )}
@@ -131,16 +146,28 @@ export const Game: React.FC = () => {
             <div className={classes.game}>
                 {loadingImage && <div className={classes.imageLoading}>Загрузка фотографии...</div>}
                 <img src={image} ref={imgRef} alt="" key={image} className={classes.image}/>
-                <div className={classes.persons}>
-                    {finalPersons.map((fp) => (
-                        <div key={fp.surname + fp.name} className={cn(classes.person, {
-                            [classes.short]: fp.name.length > 10 || fp.surname.length > 10
-                        })} onClick={() => onChoice(fp)}>
-                            {!!fp.name && <div>{fp.name}</div>}
-                            <div>{fp.surname}</div>
-                        </div>
-                    ))}
-                </div>
+                {params.mode === 'countries' ? (
+                    <div className={classes.persons}>
+                        {countries.map((country) => (
+                            <div key={country} className={cn(classes.person, {
+                                [classes.short]: country.length > 10
+                            })} onClick={() => onChoiceCountry(country)}>
+                                <div>{country}</div>
+                            </div>
+                        ))}
+                    </div>
+                ) : (
+                    <div className={classes.persons}>
+                        {finalPersons.map((fp) => (
+                            <div key={fp.surname + fp.name} className={cn(classes.person, {
+                                [classes.short]: fp.name.length > 10 || fp.surname.length > 10
+                            })} onClick={() => onChoice(fp)}>
+                                {!!fp.name && <div>{fp.name}</div>}
+                                <div>{fp.surname}</div>
+                            </div>
+                        ))}
+                    </div>
+                )}
             </div>
             <Hint/>
         </div>

@@ -1,4 +1,4 @@
-import type {Person} from "../../types";
+import type {Country, Person} from "../../types";
 import {shuffleArray, getCountriesMap} from "../../utils";
 
 function getRandomInt(max: number) {
@@ -48,6 +48,15 @@ export class Randomizer {
                 result.push(elem)
             }
         }
+        return result;
+    }
+
+    getExtraCountries(country: Country): Country[] {
+        let result: Country[] = [country];
+        const list = Array.from(this.countriesMap[country] ?? new Set<Country>()).filter((c) => c !== country);
+        shuffleArray(list);
+        result = result.concat(list.slice(0, 3))
+        shuffleArray(result);
         return result;
     }
 }
