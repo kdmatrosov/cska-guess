@@ -76,6 +76,12 @@ import kalouda from './images/kalouda.jpg'
 import kalouda2 from './images/kalouda2.jpg'
 import karavaev from './images/karavaev.jpg'
 import karavaev2 from './images/karavaev2.jpg'
+import saul from './images/saul.jpg'
+import saul2 from './images/saul2.jpg'
+import fuchs from './images/fuchs.jpg'
+import fuchs2 from './images/fuchs2.jpg'
+import janczyk from './images/janczyk.jpg'
+import janczyk2 from './images/janczyk2.jpg'
 
 export const images = {
     akinfeev: [akinfeev, akinfeev2, akinfeev3],
@@ -94,7 +100,9 @@ export const images = {
     piliev: [piliev, piliev2, piliev3],
     diveev: [diveev, diveev2, diveev3],
     torop: [torop, torop2, torop3],
-    karavaev: [karavaev, karavaev2],
+    janczyk: [janczyk, janczyk2],
+    fuchs: [fuchs, fuchs2],
+    saul: [saul, saul2],
     kalouda: [kalouda, kalouda2],
     sharlija: [sharlija, sharlija2],
     son: [son, son2],
@@ -103,6 +111,7 @@ export const images = {
     bandikyan: [bandikyan, bandikyan2],
     carmo: [carmo, carmo2],
     lukin: [lukin, lukin2],
+    karavaev: [karavaev, karavaev2],
     abdulkadyrov: [abdulkadyrov, abdulkadyrov2],
     krugovoi: [krugovoi, krugovoi2],
     gajic: [gajic, gajic2],

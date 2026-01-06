@@ -655,19 +655,22 @@ export const persons: Person[] = [
         name: 'Бруно',
         surname: 'Фукс',
         country: 'Бразилия',
-        images: ["https://i.ibb.co/bjZCC0Kj/Bruno-Fuks-Cz-SKA-RIA-Novosti-fa38c7d8e0.webp", "https://i.ibb.co/tM29FQ3R/11b3b0be169a.jpg"]
+        id: 'fuchs',
+        images: []
     },
     {
         name: 'Давид',
         surname: 'Янчик',
         country: 'Польша',
-        images: ["https://i.ibb.co/SXnmsGJd/a3766c9ea2fa78c79df41b514b536e645b7a9d9e3755f391857190.jpg", "https://i.ibb.co/Hf6FL9WJ/image.png"]
+        id: 'janczyk',
+        images: []
     },
     {
         name: 'Сауль',
         surname: 'Гуарирапа',
         country: 'Венесуэла',
-        images: ["https://i.ibb.co/vvgkBxjd/cska-obyavil-ob-uhode-saulya.jpg", "https://i.ibb.co/Q78mxZ7B/lazy-smart-crop-1280x720.jpg"]
+        id: 'saul',
+        images: []
     },
     {
         name: 'Илья',
