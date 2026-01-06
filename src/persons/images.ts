@@ -157,6 +157,8 @@ import berezutskiya from './images/berezutskiya.jpg'
 import berezutskiya2 from './images/berezutskiya2.jpg'
 import dzagoev from './images/dzagoev.jpg'
 import dzagoev2 from './images/dzagoev2.jpg'
+import bistrovic from './images/bistrovic.jpg'
+import bistrovic2 from './images/bistrovic2.jpg'
 
 export const images = {
     akinfeev: [akinfeev, akinfeev2, akinfeev3],
@@ -190,6 +192,7 @@ export const images = {
     diveev: [diveev, diveev2, diveev3],
     torop: [torop, torop2, torop3],
     krasic: [krasic, krasic2, krasic3, krasic4],
+    bistrovic: [bistrovic, bistrovic2],
     dzagoev: [dzagoev, dzagoev2],
     berezutskiya: [berezutskiya, berezutskiya2],
     musaev: [musaev, musaev2],

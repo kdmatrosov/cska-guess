@@ -394,7 +394,8 @@ export const persons: Person[] = [
         name: 'Кристиан',
         surname: 'Бистрович',
         country: 'Хорватия',
-        images: ["https://ss.sport-express.net/userfiles/materials/212/2122181/1180x665.jpg"]
+        id: 'bistrovic',
+        images: []
     },
     {
         name: 'Никола',
