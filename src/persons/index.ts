@@ -138,22 +138,22 @@ export const persons: Person[] = [
         name: 'Иван',
         surname: 'Обляков',
         country: 'Россия',
-        images: ["https://i.ibb.co/PsfKQrRg/image.png",
-        "https://i.ibb.co/R18cq6X/image.png",
-        "https://i.ibb.co/zW67yF85/image.png"]
+        id: 'oblyakov',
+        images: []
     },
     {
         name: 'Энрике',
         surname: 'Кармо',
         country: 'Бразилия',
-        images: ["https://i.ibb.co/G48FvwSQ/image.png",
-        "https://i.ibb.co/C5tGHw7x/image.png"]
+        id: 'carmo',
+        images: []
     },
     {
         name: 'Манса',
         surname: 'Барра',
         country: 'Бразилия',
-        images: ["https://s-cdn.sportbox.ru/images/styles/1200-auto/fp_fotos/16/78/0cd7dafa6cfb34504a890ab8e813b0596890de4964221152519371.jpg"]
+        id: 'mansa',
+        images: []
     },
     {
         name: 'Кирилл',
@@ -714,9 +714,8 @@ export const persons: Person[] = [
         name: 'Гусман',
         surname: 'Гильерме',
         country: 'Бразилия',
-        images: ["https://i.ibb.co/qLGf0NYZ/image.png",
-            "https://i.ibb.co/1YgcX4jB/image.png",
-            "https://i.ibb.co/xKzyVBzd/image.png"]
+        id: 'gusman',
+        images: []
     },
     {
         name: 'Наир',
@@ -736,9 +735,8 @@ export const persons: Person[] = [
         name: 'Абель',
         surname: 'Эрнандес',
         country: 'Уругвай',
-        images: ["https://i.ibb.co/QFmJjKxk/image.png",
-            "https://i.ibb.co/0RY03cBG/image.png",
-            "https://i.ibb.co/hJMfNXNd/image.png"]
+        images: [],
+        id: 'abel'
     },
     {
         name: 'Равиль',
