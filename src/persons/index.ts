@@ -673,37 +673,43 @@ export const persons: Person[] = [
         name: 'Илья',
         surname: 'Агапов',
         country: 'Россия',
-        images: ["https://i.ibb.co/N6B901c6/64490e5493a68ecfc2987e8e503d8208653ebb465dfa1755557711.jpg"]
+        images: [],
+        id: 'agapov'
     },
     {
         name: 'Мусса',
         surname: 'Маазу',
         country: 'Нигер',
-        images: ["https://i.ibb.co/x8d1c4bn/ouwo-moussa-maazou-pfc-cska-moskva.jpg"]
+        id: 'maazou',
+        images: []
     },
     {
         name: 'Вячеслав',
         surname: 'Караваев',
         country: 'Россия',
-        images: ["https://i.ibb.co/YFp0hZLG/vyacheslav-karavaev-esli-hochesh-igrat-nikakaya-praga-s-tolku-ne-sobet-53be99a41956117eadb4c1f294810.jpg", "https://i.ibb.co/XrshqSxf/Gj-PAgd-GS-0c.jpg"]
+        id: 'karavaev',
+        images: []
     },
     {
         name: 'Любош',
         surname: 'Калоуда',
         country: 'Чехия',
-        images: ["https://i.ibb.co/9992GkVD/4e05ecf1d6c92a5305febfa323e80c165b6aef26111c0942849684.jpg", "https://i.ibb.co/Fqcdvqbd/1278406923580813406400.jpg"]
+        id: 'kalouda',
+        images: []
     },
     {
         name: 'Звонимир',
         surname: 'Шарлия',
         country: 'Хорватия',
-        images: ["https://i.ibb.co/whTRqK99/sharlija-poproschalsja-s-cska-15793561561423090865.jpg", "https://i.ibb.co/yFJnSrRv/1042899626-0-0-3070-1930-1920x0-80-0-0-6d9e382015b2b110edb9d91604a4f1e1.jpg"]
+        images: [],
+        id: 'sharlija'
     },
     {
         name: 'Ким',
         surname: 'Ин Сон',
         country: 'Южная Корея',
-        images: ["https://i.ibb.co/h1B31FmH/16744889501962299605.jpg", "https://i.ibb.co/F4GCjrk6/1567696915-9d69d4729a46b8b9db79da8b4d4f4f78asdasdasd5944de66737cf8-16909211-650x433-9d69d4729a46b8b9.jpg∆"]
+        id: 'son',
+        images: []
     },
     {
         name: 'Такума',

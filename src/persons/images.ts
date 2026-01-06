@@ -54,6 +54,8 @@ import gajic2 from './images/gajic2.jpg'
 import krugovoi from './images/krugovoi.jpg'
 import krugovoi2 from './images/krugovoi2.jpg'
 import victor from './images/victor.jpg'
+import agapov from './images/agapov.jpg'
+import maazou from './images/maazou.jpg'
 import abdulkadyrov from './images/abdulkadyrov.jpg'
 import abdulkadyrov2 from './images/abdulkadyrov2.jpg'
 import lukin from './images/lukin.jpg'
@@ -66,6 +68,14 @@ import ratinho from './images/ratinho.jpg'
 import ratinho2 from './images/ratinho2.jpg'
 import nishimura from './images/nishimura.jpg'
 import nishimura2 from './images/nishimura2.jpg'
+import son from './images/son.jpg'
+import son2 from './images/son2.jpg'
+import sharlija from './images/sharlija.jpg'
+import sharlija2 from './images/sharlija2.jpg'
+import kalouda from './images/kalouda.jpg'
+import kalouda2 from './images/kalouda2.jpg'
+import karavaev from './images/karavaev.jpg'
+import karavaev2 from './images/karavaev2.jpg'
 
 export const images = {
     akinfeev: [akinfeev, akinfeev2, akinfeev3],
@@ -84,6 +94,10 @@ export const images = {
     piliev: [piliev, piliev2, piliev3],
     diveev: [diveev, diveev2, diveev3],
     torop: [torop, torop2, torop3],
+    karavaev: [karavaev, karavaev2],
+    kalouda: [kalouda, kalouda2],
+    sharlija: [sharlija, sharlija2],
+    son: [son, son2],
     nishimura: [nishimura, nishimura2],
     ratinho: [ratinho, ratinho2],
     bandikyan: [bandikyan, bandikyan2],
@@ -92,5 +106,7 @@ export const images = {
     abdulkadyrov: [abdulkadyrov, abdulkadyrov2],
     krugovoi: [krugovoi, krugovoi2],
     gajic: [gajic, gajic2],
+    maazou: [maazou],
+    agapov: [agapov],
     victor: [victor],
 }
