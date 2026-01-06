@@ -4,7 +4,7 @@ import {useNavigate, useParams} from "react-router";
 import {Hint} from "../../components";
 import {Randomizer} from "./randomizer.ts";
 import {persons} from "../../persons";
-import {shuffleArray, secondsToMmSs} from "../../utils";
+import {shuffleArray, secondsToMmSs, getFlag} from "../../utils";
 import cn from 'classnames';
 import type {Country, Person} from "../../types";
 
@@ -152,7 +152,7 @@ export const Game: React.FC = () => {
                             <div key={country} className={cn(classes.person, {
                                 [classes.short]: country.length > 10
                             })} onClick={() => onChoiceCountry(country)}>
-                                <div>{country}</div>
+                                <div>{getFlag(country)} {country}</div>
                             </div>
                         ))}
                     </div>
