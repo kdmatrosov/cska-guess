@@ -812,6 +812,20 @@ export const persons: Person[] = [
         id: 'caner',
         images: []
     },
+    {
+        name: 'Лукас',
+        surname: 'Сантос',
+        country: 'Бразилия',
+        id: 'santos',
+        images: []
+    },
+    {
+        name: 'Иван',
+        surname: 'Таранов',
+        country: 'Россия',
+        id: 'taranov',
+        images: []
+    },
 ].map((person) => {
     if (!person.id) {
         if (person.images.length === 0) {

@@ -105,6 +105,8 @@ import gajic2 from './images/gajic2.jpg'
 import krugovoi from './images/krugovoi.jpg'
 import krugovoi2 from './images/krugovoi2.jpg'
 import victor from './images/victor.jpg'
+import santos from './images/santos.jpg'
+import taranov from './images/taranov.jpg'
 import evsikov from './images/evsikov.jpg'
 import agapov from './images/agapov.jpg'
 import maazou from './images/maazou.jpg'
@@ -242,5 +244,7 @@ export const images = {
     maazou: [maazou],
     agapov: [agapov],
     evsikov: [evsikov],
+    taranov: [taranov],
+    santos: [santos],
     victor: [victor],
 }
