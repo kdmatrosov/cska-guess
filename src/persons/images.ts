@@ -170,6 +170,8 @@ import gbamin from './images/gbamin.jpg'
 import gbamin2 from './images/gbamin2.jpg'
 import caner from './images/caner.jpg'
 import caner2 from './images/caner2.jpg'
+import semak from './images/semak.jpg'
+import semak2 from './images/semak2.jpg'
 
 export const images = {
     akinfeev: [akinfeev, akinfeev2, akinfeev3],
@@ -205,6 +207,7 @@ export const images = {
     torop: [torop, torop2, torop3],
     krasic: [krasic, krasic2, krasic3, krasic4],
     yazici: [yazici, yazici2],
+    semak: [semak, semak2],
     caner: [caner, caner2],
     gbamin: [gbamin, gbamin2],
     bistrovic: [bistrovic, bistrovic2],

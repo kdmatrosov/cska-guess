@@ -8,7 +8,7 @@ function getRandomInt(max: number) {
 export class Randomizer {
     private filteredPersons: Person[];
     private memoryPersons: Person[] = [];
-    private memory: number;
+    private readonly memory: number;
     private countriesMap = getCountriesMap()
 
     constructor(persons: Person[], memory = 4) {
@@ -36,18 +36,32 @@ export class Randomizer {
     }
 
     getExtraPersons(person: Person): Person[] {
-        const result: Person[] = [];
-        const from = this.filteredPersons.concat(this.memoryPersons.slice(0, -this.memory)).filter((fp) => fp.surname !== person.surname);
+        let result: Person[] = [];
+        let similar: Person[] = [];
+        let from = this.filteredPersons.concat(this.memoryPersons.slice(0, -this.memory))
+        if (person.similar?.length) {
+            similar = from.filter(({id}) => {
+                if (!id) {
+                    return false;
+                }
+                return person.similar!.includes(id);
+            })
+        }
+        const exclude = new Set([person.surname + person.name].concat(similar.map((sp) => sp.surname + sp.name)))
+        from = from.filter((fp) => !exclude.has(fp.surname + fp.name));
         shuffleArray(from);
         let index = 0;
         const countries = this.countriesMap[person.country];
-        while (result.length < 3) {
+        const total = 4 - exclude.size;
+        while (result.length < total) {
             const elem = from[index];
             index++;
             if (!countries || !countries.size || countries.has(elem.country)) {
                 result.push(elem)
             }
         }
+        result = result.concat(similar);
+        shuffleArray(result);
         return result;
     }
 

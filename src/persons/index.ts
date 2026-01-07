@@ -196,14 +196,16 @@ export const persons: Person[] = [
         surname: 'Березуцкий',
         country: 'Россия',
         id: 'berezutskiya',
-        images: []
+        images: [],
+        similar: ["berezutskiyv"],
     },
     {
         name: 'Василий',
         surname: 'Березуцкий',
         country: 'Россия',
         id: 'berezutskiyv',
-        images: []
+        images: [],
+        similar: ["berezutskiya"],
     },
     {
         name: 'Сергей',
@@ -442,7 +444,8 @@ export const persons: Person[] = [
         name: 'Сергей',
         surname: 'Семак',
         country: 'Россия',
-        images: ["https://football-pitch.ru/wp-content/uploads/2018/02/sergey-semak-kapitan-zska.jpg"]
+        id: 'semak',
+        images: []
     },
     {
         name: 'Георгий',
